@@ -1,0 +1,28 @@
+{
+    "Gruppenanmeldung": {
+        "gruppe": {
+            "gruppenleiter": {
+                "vorname": "Ulli",
+                "nachname": "Herzog",
+                "email": "ulli.herzog@aol.com",
+                "geburtsdatum": "12.12.1967",
+                "erfahrung": "Profi",
+                "schlagzeug": "vorhanden",
+                "anmerkungen": "Der Max Herrmann hat schon viel Erfahrung und ist ein super Gruppenleiter."
+            },
+            
+            "gruppenmitglieder": [
+                {	
+                "gruppenmitglied": {
+                    "vorname": "Heidi",
+                    "nachname": "von der Alm",
+                    "email": "heidi@alm.de",
+                    "geburtsdatum": "10.05.1990",
+                    "erfahrung": "Amateur",
+                    "schlagzeug": "nicht vorhanden"
+                  }
+                }
+            ]
+        	}
+  	  }
+}
