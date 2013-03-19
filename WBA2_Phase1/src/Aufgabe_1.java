@@ -12,7 +12,7 @@ public class Aufgabe_1 {
 		- Es gibt genau ein Wurzelelement
 		- Elemente haben einen öffnenden und schließenden Tag
 		- Attributwerte sind durch ' oder " eingeschlossen
-		- Alle Elemente die nicht das Wurzelelement darstellen müssen vpm umgebenden Element eingeschlossen sein
+		- Alle Elemente die nicht das Wurzelelement darstellen müssen vom umgebenden Element eingeschlossen sein
 		- Alle Zeichen entsprechen dem passenden Zeichensatz
 	
 		Namespaces

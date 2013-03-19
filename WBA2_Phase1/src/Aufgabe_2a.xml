@@ -1,2 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<Gruppenanmeldung>
+	<gruppe>
+	
+		<gruppenleiter>
+			<vorname>Ulli</vorname>
+			<nachname>Herzog</nachname>
+			<email>ulli.herzog@aol.com</email>
+			<geburtsdatum>12.12.1967</geburtsdatum>
+			<erfahrung>Profi</erfahrung>
+			<schlagzeug>vorhanden</schlagzeug>
+			<anmerkungen>Der Max Herrmann hat schon viel Erfahrung und ist ein super Gruppenleiter.</anmerkungen>
+		</gruppenleiter>
+		
+		<gruppenmitglieder>
+			<gruppenmitglied>
+				<vorname>Heidi</vorname>
+				<nachname>von der Alm</nachname>
+				<email>heidi@alm.de</email>
+				<geburtsdatum>10.05.1990</geburtsdatum>
+				<erfahrung>Amateur</erfahrung>
+				<schlagzeug>nicht vorhanden</schlagzeug>
+			</gruppenmitglied>
+		</gruppenmitglieder>
+		
+	</gruppe>
+</Gruppenanmeldung>
