@@ -1,0 +1,19 @@
+Rezepte auf Chefkoch.de
+	Gemeinsamkeiten:
+		Alle Rezepte haben Angaben zu:
+			- Titel
+			- Verfasser
+			- Foto
+			- Zutatenliste
+			- Zubereitungsschritte
+			- Portionenanzahl
+			- Arbeitszeit
+			- Schwierigkeitsgrad
+			- Brennwert
+		
+		Verschiedene Rezepte können vom selben Verfasser sein, die selben Zutaten nutzen oder auch die selben Zubereitungsschritte haben.
+		
+		
+	Unterschiede:
+		Inhaltlich unterscheiden sich die Rezepte in allen genannten Punkten.
+		Alle Zutaten, Mengenangaben, Titel, Fotos, Zubereitungsschritte und sonstige Angaben zur Arbeitszeit, etc. sind von Rezept zu Rezept variabel wählbar und teilweise optional (z.B. Brennwert).
