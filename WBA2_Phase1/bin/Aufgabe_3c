@@ -1,0 +1,8 @@
+Die Aufgabe von einem XML-Schema ist ein Regelwerk für ein legales XML Dokument zu schaffen.
+
+Ein XML Schema definiert u.A.:
+	- Elemente und Attribute die in einem Dokument vorkommen können
+	- Welche Elemente sind Kindelemente, in welcher Reihenfolge stehen sie und wie viele gibt es?
+	- Ob ein Element leer ist oder Text enthalten kann
+	- Datentypen fpr Elemente und Attribute
+	- Standard- und feste Werte für Elemente und Attribute (default)
