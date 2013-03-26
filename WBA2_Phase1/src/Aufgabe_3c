@@ -6,3 +6,5 @@ Ein XML Schema definiert u.A.:
 	- Ob ein Element leer ist oder Text enthalten kann
 	- Datentypen fpr Elemente und Attribute
 	- Standard- und feste Werte für Elemente und Attribute (default)
+	
+	Nur ein TEst
