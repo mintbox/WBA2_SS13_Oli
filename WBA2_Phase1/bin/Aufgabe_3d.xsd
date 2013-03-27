@@ -78,3 +78,6 @@
 
 
 <!-- Kann man bestimmt auch anders machen... Habe das Schema anhand meiner Überlegungen bei Aufgabe 3c erstellt. -->
+<!-- Bekomme den Fehler mit dem Wurzelelement nicht weg. Wenn ich </schema> einfüge hat er Probleme mit dem Element in Line 6.-->
+
+

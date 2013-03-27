@@ -2,7 +2,6 @@
 
 <Gruppenanmeldung>
 	<gruppe>
-	
 		<gruppenleiter>
 			<vorname>Ulli</vorname>
 			<nachname>Herzog</nachname>
@@ -10,9 +9,8 @@
 			<geburtsdatum>12.12.1967</geburtsdatum>
 			<erfahrung>Profi</erfahrung>
 			<schlagzeug>vorhanden</schlagzeug>
-			<anmerkungen>Der Max Herrmann hat schon viel Erfahrung und ist ein super Gruppenleiter.</anmerkungen>
+			<anmerkungen>Blubb.</anmerkungen>
 		</gruppenleiter>
-		
 		<gruppenmitglieder>
 			<gruppenmitglied>
 				<vorname>Heidi</vorname>
@@ -22,7 +20,6 @@
 				<erfahrung>Amateur</erfahrung>
 				<schlagzeug>nicht vorhanden</schlagzeug>
 			</gruppenmitglied>
-		</gruppenmitglieder>
-		
+		</gruppenmitglieder>	
 	</gruppe>
 </Gruppenanmeldung>

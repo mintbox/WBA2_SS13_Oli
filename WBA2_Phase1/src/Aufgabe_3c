@@ -7,14 +7,8 @@ Ein XML Schema definiert u.A.:
 	- Datentypen für Elemente und Attribute
 	- Standard- und feste Werte für Elemente und Attribute (default)
 	
-	
-    Welche Daten müssen in simple und welche in complex-types abgebildet werden?
-    Für welche Daten ist die Abbildung in Attributen sinnvoller?
-    Welche Datentypen müssen für die Elemente definiert werden?
-    Welche Restriktionen müssen definiert werden? 
-    Bestimmte Elemente optional?
-    minOccours & maxOccours (werte)?
-    
+
+  
     
 Starten und enden muss das Schema mit dem selben Tag, auch Wurzelelement genannt.
 Das Wurzelelement in diesem Fall ist "rezepte". Schon beim ersten Element "rezept"
@@ -43,3 +37,21 @@ datum -> date
 
 Für "bild" ist es sinnvoll ein extra complextype zu nutzen, das als Attribut dann die URL hat mit dem Datentyp String. Das Bild selbst hat keinen fest definierten Datentypen und das erscheint mir die einfachste Lösung.
 Die URL wird mit use auf "required" gesetzt, da ich kein Rezept ohne Bild auf der Webseite gefunden habe.
+
+Das Element "zutaten" hat diverse Elemente wie "portionen" mit dem Datentyp Integer, eine oder mehrere Zutaten (minOccurs & maxOccurs), Mengenangaben die optional sind, Einheitsangaben die optional sind, etc.
+Das die Menge und Einheit optional sind schließe ich aus anderen Rezepten, wo diese Angaben fehlen.
+Bei dem Element "einheit" kann man gut auf eine Restriktion abzielen, um durch eine Enumeration genau zu definieren welche Angaben erlaubt sind. Diese Restriktionen nennt man hier auch "facets".
+Beim Einsatz von einer Restriktion werde ich hier auch über die Verwendung von simpleType und simpleContent nachdenken, die sie mir nach der Beschreibung auf w3schools hier sinnvoll erscheinen.
+Bei der Restriktion über die Einheit wird simpleType zum Einsatz kommen um die Grenzen zu definieren.
+
+Die Zubereitungsschritte und die Kommentare können mehrfach vorkommen, bedeutet das ich hier wieder vor habe mit minOccurs und maxOccurs arbeiten werde.
+
+
+
+Fragen aus dem Wiki:
+    Welche Daten müssen in simple und welche in complex-types abgebildet werden?
+    Für welche Daten ist die Abbildung in Attributen sinnvoller?
+    Welche Datentypen müssen für die Elemente definiert werden?
+    Welche Restriktionen müssen definiert werden? 
+    Bestimmte Elemente optional?
+    minOccours & maxOccours (werte)?
