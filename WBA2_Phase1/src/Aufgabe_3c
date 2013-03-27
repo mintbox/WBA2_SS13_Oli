@@ -4,7 +4,7 @@ Ein XML Schema definiert u.A.:
 	- Elemente und Attribute die in einem Dokument vorkommen können
 	- Welche Elemente sind Kindelemente, in welcher Reihenfolge stehen sie und wie viele gibt es?
 	- Ob ein Element leer ist oder Text enthalten kann
-	- Datentypen fpr Elemente und Attribute
+	- Datentypen für Elemente und Attribute
 	- Standard- und feste Werte für Elemente und Attribute (default)
 	
 	
@@ -16,4 +16,30 @@ Ein XML Schema definiert u.A.:
     minOccours & maxOccours (werte)?
     
     
-error
+Starten und enden muss das Schema mit dem selben Tag, auch Wurzelelement genannt.
+Das Wurzelelement in diesem Fall ist "rezepte". Schon beim ersten Element "rezept"
+ist die definierung von minOccurs und maxOccurs sinnvoll, da es kein Rezept geben muss, aber viele geben kann.
+Der Standardwert ist hierbei immer für beide Werte auf 1 gesetzt, was in unserem Fall bedeuten würde das es nur genau ein Rezept geben kann (ziemlich sinnlos).
+
+Hier kurz den Unterschied zwischen Simpletypes und Complextypes:
+Simpletypes sind XML-Elemente die keine anderen Elemente oder Attribute beinhalten können. Des weiteren beinhalten sie nur
+genau einen Typen, was die im XML Schema definierten sein können (boolean, string, etc.), aber auch selbst definierte.
+Complextypes können dagegen mehrere Elemente und/oder Attribute beinhalten. 
+Ein komplexes Element kann demnach:
+- leer sein
+- andere Elemente beinhalten
+- Text beinhalten
+- Elemente und Text beinhalten
+
+Alles folgende kommt also in einen mixed-complextype um alles zuzulassen.
+
+Die ID habe ich in der XML als Attribut vergeben, diese brauch als Datentyp "ID" aus dem XML-Schema und wird zwingend benötigt, was man mit einem "use" ausdrücken kann.
+
+Das ganze Rezept inkl. Zutaten, Bild, Kommentaren, etc. kommt in eine sequence.
+Wie im XML Dokument müssen den Elementen Datentypen zugewiesen werden. Die ersten definieren sich logischerweise wie folgt:
+titel -> string
+autor -> string
+datum -> date
+
+Für "bild" ist es sinnvoll ein extra complextype zu nutzen, das als Attribut dann die URL hat mit dem Datentyp String. Das Bild selbst hat keinen fest definierten Datentypen und das erscheint mir die einfachste Lösung.
+Die URL wird mit use auf "required" gesetzt, da ich kein Rezept ohne Bild auf der Webseite gefunden habe.
