@@ -6,7 +6,10 @@
 	<datum>17.01.2002</datum>
 	<zutaten>
 		<portionen>16</portionen>
-		<zutat name ="Butter" einheit = "Gramm" menge ="200" />
+		<zutat>
+			<menge einheit = "Gramm">200</menge>
+			<name>Butter</name>
+		</zutat>
 		<zutat>
 			<menge einheit = "Gramm">200</menge>
 			<name>Zucker</name>
