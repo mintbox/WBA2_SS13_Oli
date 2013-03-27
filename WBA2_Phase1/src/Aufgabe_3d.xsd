@@ -50,13 +50,25 @@
 						</xsd:complexType>
 					</xsd:element>
 					
-					<xsd:element></xsd:element>
+					<xsd:element name="zubereitung">
+						<xsd:complexType>
+							<xsd:element name="aktion" minOccurs="1" maxOccurs="unbounded" type="xs:string" />
+						</xsd:complexType>
+					</xsd:element>
 					
-					
-					
-					
-					
-					
+					<xsd:element name ="kommentare">
+						<xsd:complexType>
+							<xsd:element name="kommentar" minOccurs="0" maxOccurs="unbounded">
+								<xsd:complexType>
+									<xsd:sequence>
+										<xsd:element name="autor" type="xsd:string" />
+										<xsd:element name="datum" type="xsd:date" />
+										<xsd:element name="text" type="xsd:string" />
+									</xsd:sequence>
+								</xsd:complexType>
+							</xsd:element>
+						</xsd:complexType>
+					</xsd:element>
 					
 				</xsd:sequence>
 			</xsd:complexType>
@@ -65,50 +77,4 @@
 </xsd:element>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--
-<xsd:element name="rezept" type="formular" />
-
-<xsd:complexType name="formular">
-	<xsd:sequence>
-		<xsd:element name="titel" type="xsd:string" />
-		<xsd:element name="autor" type="xsd:string" />
-		<xsd:element name="datum" type="xsd:date" />
-		<xsd:element name="zutaten" type="formular" />
-		<xsd:element name="zubereitung" type="formular" />
-	</xsd:sequence>
-</xsd:complexType>
-
-<xsd:complexType name="Zutaten">
-	<xsd:sequence>
-		<xsd:element name ="zutat" type="xsd:string" />
-		<xsd:element name ="einheit" type="xsd:string" />
-		<xsd:element name ="menge" type="xsd:int" />
-	</xsd:sequence>
-</xsd:complexType>
-
-
-
-</xsd:schema>
-
- Bild fehlt -->
+<!-- Kann man bestimmt auch anders machen... Habe das Schema anhand meiner Überlegungen bei Aufgabe 3c erstellt. -->
