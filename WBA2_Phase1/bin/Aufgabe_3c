@@ -4,8 +4,6 @@ Arbeiten Sie die Kriterien heraus, die für die Entwicklung einer XML-Schema-Date
 Ziel ist es, dass das XML-Schema möglichst restriktiv ist, so dass in der XML-Datei möglichst semantisch sinnvolle Daten bezüglich der Rezepte gespeichert werden können.
 
 
-
-
 Die Aufgabe von einem XML-Schema ist ein Regelwerk für ein legales XML Dokument zu schaffen.
 
 Ein XML Schema definiert u.A.:
@@ -16,8 +14,6 @@ Ein XML Schema definiert u.A.:
 	- Standard- und feste Werte für Elemente und Attribute (default)
 	
 
-  
-    
 Starten und enden muss das Schema mit dem selben Tag, auch Wurzelelement genannt.
 Das Wurzelelement in diesem Fall ist "rezepte". Schon beim ersten Element "rezept"
 ist die definierung von minOccurs und maxOccurs sinnvoll, da es kein Rezept geben muss, aber viele geben kann.
@@ -55,11 +51,18 @@ Bei der Restriktion über die Einheit wird simpleType zum Einsatz kommen um die G
 Die Zubereitungsschritte und die Kommentare können mehrfach vorkommen, bedeutet das ich hier wieder vor habe mit minOccurs und maxOccurs arbeiten werde.
 
 
+EDIT (nach beenden der Aufgabe 3d):
+Wie schon in Aufgabe 3a erwähnt ließen sich einzelne Rezepte auch in separate Dokumente speichern. In diesem Falle würde ein Link in XSD so aussehen:
 
-Fragen aus dem Wiki:
-    Welche Daten müssen in simple und welche in complex-types abgebildet werden?
-    Für welche Daten ist die Abbildung in Attributen sinnvoller?
-    Welche Datentypen müssen für die Elemente definiert werden?
-    Welche Restriktionen müssen definiert werden? 
-    Bestimmte Elemente optional?
-    minOccours & maxOccours (werte)?
+<xs:element name=“link“>
+	<xs:complexType>
+		<xs:attribute name=“url“ type=“xs:string“/>
+	</xs:complexType>
+</xs:element>
+
+und in XML könnte dies so aussehen:
+
+<link url=“waffelrezept3.xml“/>
+
+Aufgrund der vielen möglichen Mengeneinheiten, die sehr schwierig abzudecken sind, könnte man die Restriction auf eine vorgegebene Liste durch einen einfachen Typ String ersetzen.
+Die Zutaten sind jeweils als Sequence definiert, da die Mengenangabe immer vor dem Namen vorkommen sollte, um die Lesbarkeit zu verbessern.

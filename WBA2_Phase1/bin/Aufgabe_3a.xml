@@ -69,4 +69,26 @@ Entwickeln Sie ein XML-Dokument, in dem die Daten des Rezeptes abgebildet werden
 	</rezept>
 </rezepte>
 
-<!--  -->
+<!-- Angenommen es handelt sich um eine Rezeptsammlung, ist das Wurzelelement <rezepte>, worin mehrere Elemente <rezept> vorkommen können. Jedes Rezept besitzt eine eindeutige „id“ als Attribut, 
+einen Titel, einen Autor, ein Verfassungsdatum, ein Bild und je eine Sammlung von Zutaten, Zubereitungsschritten und Kommentaren als Elemente. Das Ziel der Gruppierungen ist die Verbesserung der Lesbarkeit des Dokuments.
+Alternativ bestünde die Möglichkeit für jedes Rezept eine eigene XML-Datei anzulegen, wobei das Attribut „id“ wegfallen würde. Die Referenzierung zwischen den Dokumenten könnte dabei über die Dateinamen erfolgen.
+Bbei der Zutatenliste bieten sich mehrere Notationsmöglichkeiten an.
+Die Angabe einer Zutat erfordert folgende Daten: Zutat-Name, Menge, Mengeneinheit. Neben der obigen Variante bieten sich auch folgende an:
+
+<zutat menge=“100“ einheit=“ml“>Milch</zutat>
+
+Bei dieser Form werden die optionalen Angaben „menge“ und „einheit“ als Attribute umgesetzt.
+
+<zutat>
+	<menge>100</menge>
+	<einheit>ml</einheit>
+	<name>Milch</name>
+</zutat>
+
+Hier wiederum werden alle drei Informationen als eigene Elemente umgesetzt und unter „zutat“ gruppiert.  
+
+Für die Einbindung einer Grafik bieten sich folgende Möglichkeiten an: Zum einen die Referenzierung einer Bilddatei über eine URL, zum anderen die Einbettung via base64-Codierung. Beim Ersteren bleibt die Lesbarkeit des Dokuments erhalten, 
+widerspricht allerdings dem Prinzip der inhaltlichen Geschlossenheit. Im Gegensatz dazu steht die base64-Variante, bei der das Bild zwar vollständig ins Dokument integriert wird, aber von Menschen in dieser Form nicht verwertbar ist. 
+
+Für Mengenangaben gibt es die Möglichkeiten alle Zutaten abhängig von einer Portionsanzahl oder für genau eine Portion anzugeben. Zweiteres könnte zu unüblichen Mengen oder zu Rundungsfehlern führen (Beispiel: Für einen Pfannkuchen benötigt man 0.333 Eier). 
+Zur Berechnung von Zutaten für beliebig viele Portionen wird in der Zutatenliste in einem „portionen“-Attribut angegeben, wie viele Portionen vorgesehen sind. -->

@@ -18,7 +18,6 @@
 							<xsd:attribute name="url" type="xsd:string" use="required" />
 						</xsd:complexType>
 					</xsd:element>
-					
 					<xsd:element name ="zutaten">
 						<xsd:complexType>
 							<xsd:sequence>
@@ -52,13 +51,11 @@
 							</xsd:sequence>
 						</xsd:complexType>
 					</xsd:element>
-					
 					<xsd:element name="zubereitung">
 						<xsd:complexType>
 							<xsd:element name="aktion" minOccurs="1" maxOccurs="unbounded" type="xs:string" />
 						</xsd:complexType>
 					</xsd:element>
-					
 					<xsd:element name ="kommentare">
 						<xsd:complexType>
 							<xsd:element name="kommentar" minOccurs="0" maxOccurs="unbounded">
@@ -72,15 +69,12 @@
 							</xsd:element>
 						</xsd:complexType>
 					</xsd:element>
-					
 				</xsd:sequence>
 			</xsd:complexType>
 		</xsd:element>
 	</xsd:complexType>
 </xsd:element>
 
-
-<!-- Kann man bestimmt auch anders machen... Habe das Schema anhand meiner Überlegungen bei Aufgabe 3c erstellt. -->
-<!-- Bekomme den Fehler mit dem Wurzelelement nicht weg. Wenn ich </schema> einfüge hat er Probleme mit dem Element in Line 6.-->
+<!-- Bekomme den Fehler mit dem Wurzelelement nicht weg. Wenn ich </schema> einfüge hat er Probleme mit dem Element in Line 9.-->
 
 
