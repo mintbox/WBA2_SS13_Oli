@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<!-- Aufgabe 2 - Erzeugen Sie ein XML-Dokument, dass die Daten des folgenden Formulars vollständig erfasst:
+
+http://www.gm.fh-koeln.de/~vsch/anmeldung/gruppenanmeldung.html
+
+Füllen Sie das Dokument mit einem Beispieldatensatz. Achten Sie darauf, dass über das Formular mehrere Personen gleichzeitig erfasst werden können.
+
+Wichtig: Es sollte nicht die HTML-Struktur der Webseite in der XML-Datei abgebildet werden, sondern die zu übertragenden Daten.  -->
+
+
 <Gruppenanmeldung>
 	<gruppe>
 		<gruppenleiter>
@@ -23,3 +32,4 @@
 		</gruppenmitglieder>	
 	</gruppe>
 </Gruppenanmeldung>
+

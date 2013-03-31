@@ -1,3 +1,11 @@
+Aufgabe 3c
+
+Arbeiten Sie die Kriterien heraus, die für die Entwicklung einer XML-Schema-Datei beachtet werden müssen. Die Schema-Datei soll die Struktur für eine XML-Datei definieren, in der mehrere unterschiedliche Rezepte gespeichert werden können.
+Ziel ist es, dass das XML-Schema möglichst restriktiv ist, so dass in der XML-Datei möglichst semantisch sinnvolle Daten bezüglich der Rezepte gespeichert werden können.
+
+
+
+
 Die Aufgabe von einem XML-Schema ist ein Regelwerk für ein legales XML Dokument zu schaffen.
 
 Ein XML Schema definiert u.A.:

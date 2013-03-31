@@ -1,3 +1,8 @@
+Aufgabe 2b:
+
+Erzeugen Sie ein JSON-Dokument, dass zu ihrem XML-Dokument äquivalent ist. 
+
+
 {
     "Gruppenanmeldung": {
         "gruppe": {

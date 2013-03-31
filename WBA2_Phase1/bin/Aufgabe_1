@@ -1,3 +1,23 @@
+Aufgabe 1
+
+Erklären Sie kurz die Begriffe Wohlgeformtheit, Validität und Namespaces im Bezug auf XML und XML-Schema. 
+
+
+Namespaces:
+Der Zweck von XML-Namensräumen besteht darin, dass das Vokabular eines XML Dokumentes eindeutig identifizierbar wird, damit mehrere XML Sprachen in einem einzelnen Dokument verwendet werden können. Die Darstellung erfolgt über einen Namenspräfix.
+In XHTML stellt z.B. das <p>-Element einen Absatz dar, während derselbe Name in einer anderen XML Sprache das Element für eine Person darstellen könnte. Um dennoch beide Elemente der unterschiedlichen Sprachen syntaktisch und semantisch sinnvoll nebeneinander verwenden zu können, werden Namensräume genutzt:
+
+<xhtml:p>
+<kunden:p>
+
+Wohlgeformtheit:
+Ein XML-Dokument ist wohlgeformt, wenn am Anfang die XML-Deklaration steht, nur ein Wurzelelement existiert und ausschließlich der spezifizierte Zeichensatz verwendet wird. Zudem müssen die Elemente mit Inhalt einen öffnenden und einen schließenden Tag besitzen und die Attributwerte in Anführungszeichen stehen. Attributnamen dürfen nur einmal in einem Element vorkommen. Alle Elemente außer der Wurzel müssen komplett vom umgebenden Element umschlossen sein. 
+
+Validität:
+Ein XML Dokument gilt als valide wenn alle formellen Standards des W3Cs (z.B. Wohlgeformtheit) eingehalten werden und darüber hinaus einer inhaltlichen Struktur folgen, die in einer DTD oder einem Schema vorgegeben ist.
+
+
+
 Wohlgeformtheit
 Ein XML Dokument heißt "wohlgeformt" wenn es alle XML-Regeln einhält:
 - Es gibt genau ein Wurzelelement
