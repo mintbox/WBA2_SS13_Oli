@@ -40,7 +40,6 @@ Entwickeln Sie ein XML-Dokument, in dem die Daten des Rezeptes abgebildet werden
 				<name>Eier</name>
 			</zutat>
 		</zutaten>
-	
 		<zubereitung>
 			<arbeitszeit einheit = "Stunde">ca. 1</arbeitszeit>
 			<schwierigkeitsgrad>normal</schwierigkeitsgrad>
@@ -65,10 +64,9 @@ Entwickeln Sie ein XML-Dokument, in dem die Daten des Rezeptes abgebildet werden
 			</kommentar>
 		</kommentare>
 	</rezept>
-	
 	<rezept id=2>
 		<titel>Noch ein Rezept</titel>
 	</rezept>
-	
-
 </rezepte>
+
+<!--  -->
