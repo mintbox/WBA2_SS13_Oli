@@ -1,5 +1,6 @@
 Diskutieren Sie, warum es sinnvoll ist Daten in Formaten wie XML oder JSON zu speichern. Stellen Sie außerdem die beiden Formate gegenüber und erläutern Sie kurz deren Vor- und Nachteile. 
 
+
 XML:
 XML (Extensible Markup Language) ist eine Auszeichnungssprache zur Darstellung hierarchisch strukturierter Daten in Form von Textdateien.
 XML wird genutzt für den Austausch und das schnelle Laden von Daten. Für valides XML benötigt man Einschränkungen die durch DTD (alt) oder auch XML-Schema (neu) definiert werden.
