@@ -1,6 +1,6 @@
 package generated;
 
-public class Aufgabe_4b {
+public class Aufgabe_4b extends Rezepte{
 
 	/**
 	 * @param args
