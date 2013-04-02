@@ -7,7 +7,7 @@ http://www.chefkoch.de/rezepte/24641006006067/Lenchen-s-Schokoladenkuchen.html
 Entwickeln Sie ein XML-Dokument, in dem die Daten des Rezeptes abgebildet werden. Achten Sie darauf, dass das Dokument semantisch möglichst reichhaltig ist. Bei dieser und den folgenden Aufgaben lassen sie bitte die Daten in der Marginalspalte auf der rechten Seite weg.  -->
 
 <rezepte>
-	<rezept id = 1>
+	<rezept>
 		<titel>Lenchen's Schokoladenkuchen</titel>
 		<autor>Leen</autor>
 		<datum>17.01.2002</datum>
@@ -64,7 +64,7 @@ Entwickeln Sie ein XML-Dokument, in dem die Daten des Rezeptes abgebildet werden
 			</kommentar>
 		</kommentare>
 	</rezept>
-	<rezept id=2>
+	<rezept>
 		<titel>Noch ein Rezept</titel>
 	</rezept>
 </rezepte>
