@@ -2,7 +2,7 @@
 // Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert 
 // Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
 // Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2013.04.02 um 04:17:55 PM CEST 
+// Generiert: 2013.04.02 um 05:09:27 PM CEST 
 //
 
 
@@ -295,13 +295,13 @@ public class Rezepte {
     public static class Rezept {
 
         @XmlElementRefs({
+            @XmlElementRef(name = "zubereitung", type = JAXBElement.class),
             @XmlElementRef(name = "titel", type = JAXBElement.class),
-            @XmlElementRef(name = "kommentare", type = JAXBElement.class),
             @XmlElementRef(name = "autor", type = JAXBElement.class),
-            @XmlElementRef(name = "bild", type = JAXBElement.class),
-            @XmlElementRef(name = "zutaten", type = JAXBElement.class),
             @XmlElementRef(name = "datum", type = JAXBElement.class),
-            @XmlElementRef(name = "zubereitung", type = JAXBElement.class)
+            @XmlElementRef(name = "kommentare", type = JAXBElement.class),
+            @XmlElementRef(name = "zutaten", type = JAXBElement.class),
+            @XmlElementRef(name = "bild", type = JAXBElement.class)
         })
         @XmlMixed
         protected List<Serializable> content;
@@ -329,14 +329,14 @@ public class Rezepte {
          * 
          * <p>
          * Objects of the following type(s) are allowed in the list
-         * {@link JAXBElement }{@code <}{@link String }{@code >}
-         * {@link JAXBElement }{@code <}{@link Rezepte.Rezept.Kommentare }{@code >}
-         * {@link JAXBElement }{@code <}{@link String }{@code >}
-         * {@link JAXBElement }{@code <}{@link Rezepte.Rezept.Bild }{@code >}
-         * {@link JAXBElement }{@code <}{@link Rezepte.Rezept.Zutaten }{@code >}
-         * {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
          * {@link JAXBElement }{@code <}{@link Rezepte.Rezept.Zubereitung }{@code >}
+         * {@link JAXBElement }{@code <}{@link String }{@code >}
+         * {@link JAXBElement }{@code <}{@link String }{@code >}
+         * {@link JAXBElement }{@code <}{@link XMLGregorianCalendar }{@code >}
+         * {@link JAXBElement }{@code <}{@link Rezepte.Rezept.Kommentare }{@code >}
          * {@link String }
+         * {@link JAXBElement }{@code <}{@link Rezepte.Rezept.Zutaten }{@code >}
+         * {@link JAXBElement }{@code <}{@link Rezepte.Rezept.Bild }{@code >}
          * 
          * 
          */
