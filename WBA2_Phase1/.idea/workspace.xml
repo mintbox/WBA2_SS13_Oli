@@ -2,17 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f25afb8b-dbde-4cf9-8936-f962926d2467" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" afterPath="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WBA2_Phase1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Aufgabe_3d.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365003521260" ignored="false" />
     <file path="/Aufgabe_3a.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364906251093" ignored="false" />
-    <file path="/Dummy.txt" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365003823835" ignored="false" />
+    <file path="/Dummy.txt" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365004936962" ignored="false" />
     <file path="/fragment.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364913106344" ignored="false" />
     <file path="/Aufgabe_4b.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365004039953" ignored="false" />
     <file path="/Aufgabe_3a.xml" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365003424843" ignored="false" />
+    <file path="/Aufgabe_3d.xsd.xml" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365005524974" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,10 +74,19 @@
       <file leaf-file-name="Aufgabe_4b.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="51" selection-start="621" selection-end="621" vertical-scroll-proportion="0.3777174">
+            <state line="22" column="51" selection-start="621" selection-end="621" vertical-scroll-proportion="0.46714032">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aufgabe_3d.xsd.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="38" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -94,7 +103,7 @@
       <file leaf-file-name="Aufgabe_3d.xsd" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="89" selection-start="5312" selection-end="5312" vertical-scroll-proportion="0.0">
+            <state line="4" column="18" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,6 +150,7 @@
         <option value="$PROJECT_DIR$/src/Aufgabe_3a.xml" />
         <option value="$PROJECT_DIR$/src/Aufgabe_3d.xsd" />
         <option value="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe_3d.xsd.xml" />
       </list>
     </option>
   </component>
@@ -221,6 +231,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -292,7 +303,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -310,9 +320,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="Application.Aufgabe_4b">
     <configuration default="false" name="Aufgabe_4b" type="Application" factoryName="Application" temporary="true">
@@ -351,6 +361,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -377,19 +400,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -478,7 +488,11 @@
       <created>1365003836204</created>
       <updated>1365003836204</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="...">
+      <created>1365004757366</created>
+      <updated>1365004757366</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -496,17 +510,17 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1719697" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1719697" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -549,7 +563,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="Krank coden ist nicht toll. Steh aufm Schlauch." />
+    <option name="LAST_COMMIT_MESSAGE" value="..." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -565,6 +579,7 @@
     <MESSAGE value="Intellij Commit n Push Test." />
     <MESSAGE value="100er Push.YEAH." />
     <MESSAGE value="Krank coden ist nicht toll. Steh aufm Schlauch." />
+    <MESSAGE value="..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -622,18 +637,7 @@
     </entry>
     <entry file="file://$USER_HOME$/Dropbox/WBA2-Prak/Phase2/java/src/xml_marshalling/XMLToJavaDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="44" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="44" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/generated/ObjectFactory.java">
@@ -650,16 +654,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="11" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="89" selection-start="5312" selection-end="5312" vertical-scroll-proportion="0.0">
+        <state line="4" column="18" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="621" selection-end="621" vertical-scroll-proportion="0.3777174">
+        <state line="22" column="51" selection-start="621" selection-end="621" vertical-scroll-proportion="0.46714032">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
