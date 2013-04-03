@@ -1,18 +1,24 @@
 package generated;
 
-import java.io.*;
+import java.io.FileInputStream;
+import javax.xml.bind.*;
+import generated.ObjectFactory;
+import generated.Rezepte;
 
-public class Aufgabe_4b extends Rezepte{
+
+public class Aufgabe_4b{
 
 	/**
 	 * @param args
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
-        System.out.println("Hallo!");
+        JAXBContext jc = JAXBContext.newInstance(Rezepte.class);
+        Unmarshaller um = jc.createUnmarshaller();
 
+        Rezepte r = (Rezepte) um.unmarshal(new FileInputStream("src/Aufgabe_3a.xml"));
 
-
+        System.out.println("Rezepte:");
 
 
 	}

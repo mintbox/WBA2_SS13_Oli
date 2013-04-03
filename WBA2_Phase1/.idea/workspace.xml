@@ -3,16 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="f25afb8b-dbde-4cf9-8936-f962926d2467" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/generated/Aufgabe_4b.java" afterPath="$PROJECT_DIR$/src/generated/Aufgabe_4b.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WBA2_Phase1.iml" afterPath="$PROJECT_DIR$/WBA2_Phase1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WBA2_Phase1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Aufgabe_3d.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364910024622" ignored="false" />
     <file path="/Aufgabe_3a.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364906251093" ignored="false" />
-    <file path="/Dummy.txt" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364993753001" ignored="false" />
+    <file path="/Dummy.txt" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364993827939" ignored="false" />
     <file path="/fragment.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364913106344" ignored="false" />
-    <file path="/Aufgabe_4b.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364992873344" ignored="false" />
+    <file path="/Aufgabe_4b.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364999084635" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,8 +73,21 @@
       <file leaf-file-name="Aufgabe_4b.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/generated/Aufgabe_4b.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="57" selection-start="79" selection-end="79" vertical-scroll-proportion="0.18378378">
-              <folding />
+            <state line="21" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.5802469">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XMLToJavaDemo.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Dropbox/WBA2-Prak/Phase2/java/src/xml_marshalling/XMLToJavaDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="96" selection-start="378" selection-end="469" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -427,6 +439,11 @@
       <created>1364905143538</created>
       <updated>1364905143538</updated>
     </task>
+    <task id="LOCAL-00001" summary="Intellij Commit n Push Test.">
+      <created>1364993837670</created>
+      <updated>1364993837671</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -444,13 +461,13 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3253833" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2657581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1719697" sideWeight="0.6746167" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1719697" sideWeight="0.7342419" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -530,7 +547,9 @@
     <entry file="file://$PROJECT_DIR$/src/generated/Aufgabe_4b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="0" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -579,11 +598,6 @@
         <state line="10" column="11" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3030303" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Dropbox/WBA2-Prak/Phase2/java/src/xml_marshalling/XMLToJavaDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe_3c">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -599,13 +613,6 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generated/Rezepte.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="13" selection-start="7793" selection-end="7793" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/generated/ObjectFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="32" column="13" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
@@ -613,10 +620,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/generated/Rezepte.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="151" column="13" selection-start="7793" selection-end="7793" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Dropbox/WBA2-Prak/Phase2/java/src/xml_marshalling/XMLToJavaDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="96" selection-start="378" selection-end="469" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/generated/Aufgabe_4b.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="57" selection-start="79" selection-end="79" vertical-scroll-proportion="0.18378378">
-          <folding />
+        <state line="21" column="0" selection-start="530" selection-end="530" vertical-scroll-proportion="0.5802469">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
