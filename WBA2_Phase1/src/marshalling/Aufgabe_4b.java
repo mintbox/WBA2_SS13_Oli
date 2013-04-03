@@ -11,7 +11,7 @@ public class Aufgabe_4b{
 	 * @param args
 	 */
 	public static void main(String[] args) throws Exception {
-		// TODO Auto-generated method stub
+
         JAXBContext jc = JAXBContext.newInstance(Rezepte.class);
         Unmarshaller um = jc.createUnmarshaller();
 
@@ -19,15 +19,15 @@ public class Aufgabe_4b{
 
         System.out.println("Rezepte:");
         for (Rezepte.Rezept rez:r.getRezept()){
-            System.out.println("ID: " + rez.getId());
-    /*        System.out.println("Titel: " + rez.);
+//            System.out.println("ID: " + rez.getId());
+            System.out.println("Titel: " + rez.);
             System.out.println("Autor: " + );
             System.out.println("Bild: " + );
             System.out.println("Datum: " + );
             System.out.println("Zutaten: " + );
             System.out.println("Zubereitung: " + );
             System.out.println("Kommentare: " + rez.Kommentare.Kommentar);
-            System.out.println();        */
+            System.out.println();
         }
 
 	}
