@@ -74,7 +74,7 @@
                                 </xsd:complexType>
                             </xsd:element>
                         </xsd:sequence>
-                        <xsd:attribute name="id" type="xsd:ID" use="required"/>
+                    <!--    <xsd:attribute name="id" type="xsd:ID" use="required"/>   -->
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
