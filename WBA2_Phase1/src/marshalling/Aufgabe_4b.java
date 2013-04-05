@@ -26,7 +26,7 @@ public class Aufgabe_4b{
             System.out.println("Datum: " + );
             System.out.println("Zutaten: " + );
             System.out.println("Zubereitung: " + );
-            System.out.println("Kommentare: " + rez.Kommentare.Kommentar);
+            System.out.println("Kommentare: " + rez.Kommentare.Kommentar.class);
             System.out.println();
         }
 
