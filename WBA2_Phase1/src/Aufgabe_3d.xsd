@@ -1,84 +1,126 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-
-    <!-- Erstellen Sie nun ein XML-Schema auf Basis ihrer zuvor definierten Kriterien. Generieren Sie nun auf Basis des Schemas eine XML-Datei und füllen Sie diese mit zwei unterschiedlichen und validen Datensätzen.  -->
-
-
-    <xsd:element name="rezepte">
-        <xsd:complexType>
-            <xsd:sequence>
-                <xsd:element name="rezept" minOccurs="0" maxOccurs="unbounded">
-                    <xsd:complexType mixed="true">
-                        <xsd:sequence>
-                            <xsd:element name="titel" type="xsd:string"/>
-                            <xsd:element name="autor" type="xsd:string"/>
-                            <xsd:element name="datum" type="xsd:date"/>
-                            <xsd:element name="bild">
-                                <xsd:complexType>
-                                    <xsd:attribute name="url" type="xsd:string" use="required"/>
-                                </xsd:complexType>
-                            </xsd:element>
-                            <xsd:element name="zutaten">
-                                <xsd:complexType>
-                                    <xsd:sequence>
-                                        <xsd:element name="portionen" type="xsd:int"/>
-                                        <xsd:element name="zutat" minOccurs="1" maxOccurs="unbounded">
-                                            <xsd:complexType>
-                                                <xsd:sequence>
-                                                    <xsd:element name="menge">
-                                                        <xsd:complexType>
-                                                            <xsd:simpleContent>
-                                                                <xsd:extension base="xsd:int">
-                                                                    <xsd:attribute name="einheit" use="optional">
-                                                                        <xsd:simpleType>
-                                                                            <xsd:restriction base="xsd:string">
-                                                                                <xsd:enumeration value="Gramm"/>
-                                                                                <xsd:enumeration value="Teeloeffel"/>
-                                                                                <xsd:enumeration value="Packung"/>
-                                                                                <xsd:enumeration value="Stück"/>
-                                                                                <xsd:enumeration value="Liter"/>
-                                                                                <!-- usw. -->
-                                                                            </xsd:restriction>
-                                                                        </xsd:simpleType>
-                                                                    </xsd:attribute>
-                                                                </xsd:extension>
-                                                            </xsd:simpleContent>
-                                                        </xsd:complexType>
-                                                    </xsd:element>
-                                                </xsd:sequence>
-                                            </xsd:complexType>
-                                        </xsd:element>
-                                    </xsd:sequence>
-                                </xsd:complexType>
-                            </xsd:element>
-                            <xsd:element name="zubereitung">
-                                <xsd:complexType>
-                                    <xsd:sequence>
-                                        <xsd:element name="aktion" minOccurs="1" maxOccurs="unbounded"
-                                                     type="xsd:string"/>
-                                    </xsd:sequence>
-                                </xsd:complexType>
-                            </xsd:element>
-                            <xsd:element name="kommentare">
-                                <xsd:complexType>
-                                    <xsd:sequence>
-                                        <xsd:element name="kommentar" minOccurs="0" maxOccurs="unbounded">
-                                            <xsd:complexType>
-                                                <xsd:sequence>
-                                                    <xsd:element name="autor" type="xsd:string"/>
-                                                    <xsd:element name="datum" type="xsd:date"/>
-                                                    <xsd:element name="text" type="xsd:string"/>
-                                                </xsd:sequence>
-                                            </xsd:complexType>
-                                        </xsd:element>
-                                    </xsd:sequence>
-                                </xsd:complexType>
-                            </xsd:element>
-                        </xsd:sequence>
-                        <!--    <xsd:attribute name="id" type="xsd:ID" use="required"/>   -->
-                    </xsd:complexType>
-                </xsd:element>
-            </xsd:sequence>
-        </xsd:complexType>
-    </xsd:element>
-</xsd:schema>
+<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" "http://www.w3.org/2001/XMLSchema.dtd">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.example.org/Aufgabe_3d"
+           elementFormDefault="qualified">
+    <xs:element name="Rezepte">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Rezept" maxOccurs="unbounded" minOccurs="1">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Titel" type="xs:string" maxOccurs="1" minOccurs="1"/>
+                            <xs:element name="Autor" type="xs:string"/>
+                            <xs:element name="Datum" type="xs:date"/>
+                            <xs:element name="Bild" type="xs:anyURI" maxOccurs="1" minOccurs="0"/>
+                            <xs:element name="Zutaten" maxOccurs="1" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Zutat" maxOccurs="unbounded" minOccurs="1">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Name" type="xs:string" maxOccurs="1"
+                                                                minOccurs="1"/>
+                                                    <xs:element name="Menge" type="xs:float" maxOccurs="1"
+                                                                minOccurs="0"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="Einheit" default="g">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:enumeration value="g"/>
+                                                            <xs:enumeration value="Pck."/>
+                                                            <xs:enumeration value="EL"/>
+                                                            <xs:enumeration value="ml"/>
+                                                            <xs:enumeration value="Prise"/>
+                                                            <xs:enumeration value="Dose"/>
+                                                            <xs:enumeration value="TL"/>
+                                                            <xs:enumeration value="Pkt."/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Zubereitung" maxOccurs="1" minOccurs="1">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Arbeitszeit">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Dauer" type="xs:integer"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="Einheit">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:enumeration value="std"/>
+                                                            <xs:enumeration value="min"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Ruhezeit" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Dauer" type="xs:integer"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="Einheit">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:enumeration value="std"/>
+                                                            <xs:enumeration value="min"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Schwierigkeitsgrad">
+                                            <xs:simpleType>
+                                                <xs:restriction base="xs:string">
+                                                    <xs:enumeration value="simpel"/>
+                                                    <xs:enumeration value="normal"/>
+                                                    <xs:enumeration value="pfiffig"/>
+                                                </xs:restriction>
+                                            </xs:simpleType>
+                                        </xs:element>
+                                        <xs:element name="Brennwert" maxOccurs="1" minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="Anzahl" type="xs:integer"/>
+                                                </xs:sequence>
+                                                <xs:attribute name="Einheit">
+                                                    <xs:simpleType>
+                                                        <xs:restriction base="xs:string">
+                                                            <xs:enumeration value="kcal"/>
+                                                        </xs:restriction>
+                                                    </xs:simpleType>
+                                                </xs:attribute>
+                                            </xs:complexType>
+                                        </xs:element>
+                                        <xs:element name="Arbeitsschritte" type="xs:string"/>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                            <xs:element name="Kommentare" maxOccurs="1" minOccurs="0">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="Kommentar" maxOccurs="unbounded"
+                                                    minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:attribute name="Autor" type="xs:string"/>
+                                                <xs:attribute name="Datum" type="xs:date"/>
+                                                <xs:attribute name="Uhrzeit" type="xs:time"/>
+                                                <xs:attribute name="Text" type="xs:string" />
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

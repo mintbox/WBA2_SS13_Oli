@@ -11,7 +11,7 @@ Entwickeln Sie ein XML-Dokument, in dem die Daten des Rezeptes abgebildet werden
 		<titel>Lenchen's Schokoladenkuchen</titel>
 		<autor>Leen</autor>
 		<datum>17.01.2002</datum>
-		<bild url="bild-zum-schokokuchen-rezept.png" />
+		<bild>http://static.chefkoch-cdn.de/ck.de/rezepte/2/2464/8082-960x720-lenchen_s_schokoladenkuchen.jpg</bild>
 		<zutaten>
 			<portionen>16</portionen>
 			<zutat name ="Butter" einheit = "Gramm" menge ="200" />

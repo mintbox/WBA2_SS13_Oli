@@ -1,22 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f25afb8b-dbde-4cf9-8936-f962926d2467" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_3a.xml" afterPath="$PROJECT_DIR$/src/Aufgabe_3a.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd" afterPath="$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java" afterPath="$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="f25afb8b-dbde-4cf9-8936-f962926d2467" name="Default" comment="" />
     <ignored path="WBA2_Phase1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Aufgabe_3d.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365003521260" ignored="false" />
     <file path="/Aufgabe_3a.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364906251093" ignored="false" />
-    <file path="/Dummy.txt" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365426334493" ignored="false" />
+    <file path="/Dummy.txt" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365433395291" ignored="false" />
     <file path="/fragment.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364913106344" ignored="false" />
     <file path="/Aufgabe_4b.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365413482487" ignored="false" />
     <file path="/Aufgabe_3a.xml" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365427103976" ignored="false" />
     <file path="/Aufgabe_3d.xsd.xml" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365005524974" ignored="false" />
     <file path="/NewXMLSchema.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365427092707" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365433593645" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,19 +82,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aufgabe_3d_V2.xsd" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Aufgabe_3d_V2.xsd" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="58" selection-start="7207" selection-end="7207" vertical-scroll-proportion="0.6060606">
+            <state line="100" column="58" selection-start="7207" selection-end="7207" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aufgabe_3d_V21.xml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Aufgabe_3d_V21.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V21.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="72" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.0">
+            <state line="77" column="72" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.54545456">
               <folding />
             </state>
           </provider>
@@ -108,7 +104,9 @@
         <entry file="file://$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="35" column="43" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -470,7 +468,11 @@
       <created>1365006079193</created>
       <updated>1365006079193</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Alles neu..">
+      <created>1365433402291</created>
+      <updated>1365433402291</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,6 +491,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
@@ -501,7 +504,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -547,7 +549,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Alles neu.." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -565,6 +567,7 @@
     <MESSAGE value="100er Push.YEAH." />
     <MESSAGE value="Krank coden ist nicht toll. Steh aufm Schlauch." />
     <MESSAGE value="..." />
+    <MESSAGE value="Alles neu.." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -651,14 +654,9 @@
     <entry file="file://$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="43" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V21.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="72" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -671,7 +669,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="58" selection-start="7207" selection-end="7207" vertical-scroll-proportion="0.6060606">
+        <state line="100" column="58" selection-start="7207" selection-end="7207" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V21.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="72" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.54545456">
           <folding />
         </state>
       </provider>
