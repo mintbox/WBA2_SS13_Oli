@@ -34,6 +34,7 @@
                                                             <xs:enumeration value="Dose"/>
                                                             <xs:enumeration value="TL"/>
                                                             <xs:enumeration value="Pkt."/>
+                                                            <xs:enumeration value="Flasche"/>
                                                         </xs:restriction>
                                                     </xs:simpleType>
                                                 </xs:attribute>
@@ -111,7 +112,7 @@
                                                 <xs:attribute name="Autor" type="xs:string"/>
                                                 <xs:attribute name="Datum" type="xs:date"/>
                                                 <xs:attribute name="Uhrzeit" type="xs:time"/>
-                                                <xs:attribute name="Text" type="xs:string" />
+                                                <xs:attribute name="Text" type="xs:string"/>
                                             </xs:complexType>
                                         </xs:element>
                                     </xs:sequence>
