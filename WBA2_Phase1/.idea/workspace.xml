@@ -2,17 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f25afb8b-dbde-4cf9-8936-f962926d2467" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
+      <change type="DELETED" beforePath="C:\Users\Oli\git\WBA2_SS13_Oli\WBA2_Phase1\src\generated\ObjectFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Oli\git\WBA2_SS13_Oli\WBA2_Phase1\src\generated\Rezepte.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_3a.xml" afterPath="$PROJECT_DIR$/src/Aufgabe_3a.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_3d.xsd" afterPath="$PROJECT_DIR$/src/Aufgabe_3d.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" afterPath="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WBA2_Phase1.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Aufgabe_3d.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365003521260" ignored="false" />
     <file path="/Aufgabe_3a.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364906251093" ignored="false" />
-    <file path="/Dummy.txt" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365004936962" ignored="false" />
+    <file path="/Dummy.txt" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365426334493" ignored="false" />
     <file path="/fragment.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1364913106344" ignored="false" />
-    <file path="/Aufgabe_4b.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365004039953" ignored="false" />
-    <file path="/Aufgabe_3a.xml" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365003424843" ignored="false" />
+    <file path="/Aufgabe_4b.java" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365413482487" ignored="false" />
+    <file path="/Aufgabe_3a.xml" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365427103976" ignored="false" />
     <file path="/Aufgabe_3d.xsd.xml" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365005524974" ignored="false" />
+    <file path="/NewXMLSchema.xsd" changelist="f25afb8b-dbde-4cf9-8936-f962926d2467" time="1365427092707" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +34,6 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -35,6 +41,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -51,6 +58,7 @@
         <option name="ENABLED" value="false" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
         <option name="SUSPEND_POLICY" value="SuspendAll" />
         <option name="SUSPEND" value="true" />
         <option name="COUNT_FILTER_ENABLED" value="false" />
@@ -62,6 +70,7 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -71,57 +80,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Aufgabe_4b.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="51" selection-start="621" selection-end="621" vertical-scroll-proportion="0.46714032">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aufgabe_3d.xsd.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="38" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Aufgabe_3a.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="11" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
+            <state line="27" column="54" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Aufgabe_3d.xsd" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd">
+      <file leaf-file-name="Aufgabe_3d_V2.xsd" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="18" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ObjectFactory.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generated/ObjectFactory.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="13" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Rezepte.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/generated/Rezepte.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="151" column="13" selection-start="7793" selection-end="7793" vertical-scroll-proportion="0.0">
+            <state line="76" column="68" selection-start="5539" selection-end="5539" vertical-scroll-proportion="2.3030303">
               <folding />
             </state>
           </provider>
@@ -147,10 +118,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/Aufgabe_3a.xsd" />
         <option value="$PROJECT_DIR$/src/generated/Aufgabe_4b.java" />
-        <option value="$PROJECT_DIR$/src/Aufgabe_3a.xml" />
-        <option value="$PROJECT_DIR$/src/Aufgabe_3d.xsd" />
         <option value="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe_3d.xsd" />
         <option value="$PROJECT_DIR$/src/Aufgabe_3d.xsd.xml" />
+        <option value="$PROJECT_DIR$/src/Aufgabe_3a.xml" />
+        <option value="$PROJECT_DIR$/src/NewXMLSchema.xsd" />
       </list>
     </option>
   </component>
@@ -283,24 +255,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WBA2_Phase1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WBA2_Phase1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="generated" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -319,6 +273,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
@@ -492,15 +447,20 @@
       <created>1365004757366</created>
       <updated>1365004757366</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="...">
+      <created>1365006079193</created>
+      <updated>1365006079193</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -510,18 +470,19 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1719697" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1719697" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2657581" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -551,7 +512,7 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
@@ -561,6 +522,10 @@
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="UPDATE_FILTER_SCOPE_NAME" />
+    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
+    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
+    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" value="..." />
@@ -574,6 +539,7 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="Intellij Commit n Push Test." />
@@ -589,9 +555,23 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/generated/Rezepte.java">
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_5">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="13" selection-start="7793" selection-end="7793" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="122" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="68" column="29" selection-start="4803" selection-end="4803" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -610,22 +590,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Dropbox/WBA2-Prak/Phase2/java/src/xml_marshalling/XMLToJavaToXML.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="245" selection-end="245" vertical-scroll-proportion="0.3030303" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe_3c">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_1">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
@@ -635,52 +600,60 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/Dropbox/WBA2-Prak/Phase2/java/src/xml_marshalling/XMLToJavaToXML.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="11" selection-start="245" selection-end="245" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/Dropbox/WBA2-Prak/Phase2/java/src/xml_marshalling/XMLToJavaDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="44" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generated/ObjectFactory.java">
+    <entry file="file://$USER_HOME$/Dropbox/WBA2-Prak/Phase2/java/src/xml_marshalling/JavaToXMLDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="13" selection-start="1153" selection-end="1153" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_1">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/generated/Rezepte.java">
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_5">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="151" column="13" selection-start="7793" selection-end="7793" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="11" selection-start="451" selection-end="451" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="18" selection-start="319" selection-end="319" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="51" selection-start="621" selection-end="621" vertical-scroll-proportion="0.46714032">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="23" column="43" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="29" selection-start="4876" selection-end="4876" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="54" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="68" selection-start="5539" selection-end="5539" vertical-scroll-proportion="2.3030303">
+          <folding />
         </state>
       </provider>
     </entry>

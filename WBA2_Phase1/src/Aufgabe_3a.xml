@@ -15,48 +15,31 @@ Entwickeln Sie ein XML-Dokument, in dem die Daten des Rezeptes abgebildet werden
 		<zutaten>
 			<portionen>16</portionen>
 			<zutat name ="Butter" einheit = "Gramm" menge ="200" />
-			<zutat>
-				<menge einheit = "Gramm">200</menge>
-				<name>Zucker</name>
-			</zutat>
-			<zutat>
-				<menge einheit = "Gramm">200</menge>
-				<name>Schokolade, Blockschokolade</name>
-			</zutat>
-			<zutat>
-				<menge einheit = "Gramm">120</menge>
-				<name>Mehl</name>
-			</zutat>
-			<zutat>
-				<menge einheit = "Teeloeffel">1/2</menge>
-				<name>Backpulver</name>
-			</zutat>
-			<zutat>
-				<menge einheit = "Packung">1</menge>
-				<name>Vanillezucker</name>
-			</zutat>
-			<zutat>
-				<menge einheit = "Stück">4</menge>
-				<name>Eier</name>
-			</zutat>
+			<zutat name ="Zucker" einheit ="Gramm" menge ="200" />
+			<zutat name ="Schokolade, Blockschokolade" einheit="Gramm" menge="200" />
+			<zutat name ="Mehl" einheit="Gramm" menge="120" />
+			<zutat name="Backpulver" einheit="Teeloeffel" menge="1/2" />
+			<zutat name ="Vanillezucker" einheit="Packung" menge="1" />
+			<zutat name="Eier" einheit="Stück" menge="4" />
 		</zutaten>
 		<zubereitung>
 			<arbeitszeit einheit = "Stunde">ca. 1</arbeitszeit>
 			<schwierigkeitsgrad>normal</schwierigkeitsgrad>
-			<brennwert_pp einheit = "kcal">295</brennwert_pp>
-			<aktion>Butter und Schokolade im Wasserbad schmelzen</aktion>
-			<aktion>Eier trennen</aktion>
-			<aktion>Eiweiß steif schlagen</aktion>
-			<aktion>Eigelbe, Zucker und Vanillezucker verruehren</aktion>
-			<aktion>Geschmolzene Butter-Schokomasse hinzufuegen und mischen</aktion>
-			<aktion>Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben</aktion>
-			<aktion> In eine gut gefettete Form geben</aktion>
-			<aktion>Bei 180°Grad 40 – 50 Minuten backen</aktion>
+			<brennwert einheit = "kcal">295</brennwert>
+			<schritt>Butter und Schokolade im Wasserbad schmelzen</schritt>
+			<schritt>Eier trennen</schritt>
+			<schritt>Eiweiß steif schlagen</schritt>
+			<schritt>Eigelbe, Zucker und Vanillezucker verruehren</schritt>
+			<schritt>Geschmolzene Butter-Schokomasse hinzufuegen und mischen</schritt>
+			<schritt>Mehl mit dem Backpulver in die Masse sieben und zum Schluss die steifen Eiweiße vorsichtig unterheben</schritt>
+			<schritt> In eine gut gefettete Form geben</schritt>
+			<schritt>Bei 180°Grad 40 – 50 Minuten backen</schritt>
 		</zubereitung>
 		<kommentare>
 			<kommentar>
 				<autor>swieselchen</autor>
 				<datum>07.02.2002</datum>
+                <uhrzeit>18:49 Uhr</uhrzeit>
 				<text>Habe Deinen Kuchen gestern gebacken (kleine Abwandlung: 
 				statt Blockschokolade hatte ich nur Kuvertüre, zartbitter und ich habe 
 				noch etwas Rumaroma und eine Prise Salz dazugegeben) mein LAG war total begeistert. 

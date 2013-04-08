@@ -54,27 +54,28 @@
                             <xsd:element name="zubereitung">
                                 <xsd:complexType>
                                     <xsd:sequence>
-                                        <xsd:element name="aktion" minOccurs="1" maxOccurs="unbounded" type="xsd:string"/>
+                                        <xsd:element name="aktion" minOccurs="1" maxOccurs="unbounded"
+                                                     type="xsd:string"/>
                                     </xsd:sequence>
                                 </xsd:complexType>
                             </xsd:element>
                             <xsd:element name="kommentare">
                                 <xsd:complexType>
                                     <xsd:sequence>
-                                    <xsd:element name="kommentar" minOccurs="0" maxOccurs="unbounded">
-                                        <xsd:complexType>
-                                            <xsd:sequence>
-                                                <xsd:element name="autor" type="xsd:string"/>
-                                                <xsd:element name="datum" type="xsd:date"/>
-                                                <xsd:element name="text" type="xsd:string"/>
-                                            </xsd:sequence>
-                                        </xsd:complexType>
-                                    </xsd:element>
+                                        <xsd:element name="kommentar" minOccurs="0" maxOccurs="unbounded">
+                                            <xsd:complexType>
+                                                <xsd:sequence>
+                                                    <xsd:element name="autor" type="xsd:string"/>
+                                                    <xsd:element name="datum" type="xsd:date"/>
+                                                    <xsd:element name="text" type="xsd:string"/>
+                                                </xsd:sequence>
+                                            </xsd:complexType>
+                                        </xsd:element>
                                     </xsd:sequence>
                                 </xsd:complexType>
                             </xsd:element>
                         </xsd:sequence>
-                    <!--    <xsd:attribute name="id" type="xsd:ID" use="required"/>   -->
+                        <!--    <xsd:attribute name="id" type="xsd:ID" use="required"/>   -->
                     </xsd:complexType>
                 </xsd:element>
             </xsd:sequence>
