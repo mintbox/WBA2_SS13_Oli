@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Rezepte xmlns="http://www.example.org/Aufgabe_3d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.example.org/Aufgabe_3d Aufgabe_3d_V2.xsd ">
+         xsi:schemaLocation="http://www.example.org/Aufgabe_3d Aufgabe_3d.xsd ">
     <Rezept>
         <Titel>Goldener Toast</Titel>
         <Autor>Lubu</Autor>
@@ -47,7 +47,9 @@
             <Arbeitszeit>
                 <Dauer>15</Dauer>
             </Arbeitszeit>
-
+			<Ruhezeit>
+				<Dauer>3</Dauer>
+			</Ruhezeit>
             <Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
 
             <Arbeitsschritte>
@@ -110,7 +112,7 @@
             </Zutat>
             <Zutat Einheit="Flasche">
                 <Name>Bittermandelöl</Name>
-                <Menge>0,5</Menge>
+                <Menge>0.5</Menge>
             </Zutat>
             <Zutat Einheit="Prise">
                 <Name>Salz</Name>
@@ -162,5 +164,3 @@
     </Rezept>
 </Rezepte>
 
-
-        http://www.chefkoch.de/rezepte/29141007476938/Cantuccini.html

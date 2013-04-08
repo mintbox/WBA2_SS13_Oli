@@ -34,6 +34,7 @@
                                                             <xs:enumeration value="Dose"/>
                                                             <xs:enumeration value="TL"/>
                                                             <xs:enumeration value="Pkt."/>
+                                                            <xs:enumeration value="Stk." />
                                                             <xs:enumeration value="Flasche"/>
                                                         </xs:restriction>
                                                     </xs:simpleType>
