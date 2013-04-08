@@ -72,6 +72,7 @@ Hier wiederum werden alle drei Informationen als eigene Elemente umgesetzt und u
 
 Für die Einbindung einer Grafik bieten sich folgende Möglichkeiten an: Zum einen die Referenzierung einer Bilddatei über eine URL, zum anderen die Einbettung via base64-Codierung. Beim Ersteren bleibt die Lesbarkeit des Dokuments erhalten, 
 widerspricht allerdings dem Prinzip der inhaltlichen Geschlossenheit. Im Gegensatz dazu steht die base64-Variante, bei der das Bild zwar vollständig ins Dokument integriert wird, aber von Menschen in dieser Form nicht verwertbar ist. 
+Der einfachheit halber kann man im Schema auch mit anyURI arbeiten.
 
 Für Mengenangaben gibt es die Möglichkeiten alle Zutaten abhängig von einer Portionsanzahl oder für genau eine Portion anzugeben. Zweiteres könnte zu unüblichen Mengen oder zu Rundungsfehlern führen (Beispiel: Für einen Pfannkuchen benötigt man 0.333 Eier). 
 Zur Berechnung von Zutaten für beliebig viele Portionen wird in der Zutatenliste in einem „portionen“-Attribut angegeben, wie viele Portionen vorgesehen sind. -->
