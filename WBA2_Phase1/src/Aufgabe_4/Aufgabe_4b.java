@@ -1,8 +1,21 @@
 package Aufgabe_4;
 
-import java.io.FileInputStream;
-import javax.xml.bind.*;
-import Aufgabe_4.*;
+import java.awt.List;
+import java.io.File;
+import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.Writer;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Marshaller;
+import javax.xml.bind.Unmarshaller;
+
+import Aufgabe_4.Rezepte.Rezept;
+import Aufgabe_4.Rezepte.Rezept.Kommentare;
 
 
 public class Aufgabe_4b{

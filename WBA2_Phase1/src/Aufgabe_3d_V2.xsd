@@ -9,8 +9,8 @@
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="Titel" type="xs:string" maxOccurs="1" minOccurs="1"/>
-                            <xs:element name="Autor" type="xs:string" />
-                            <xs:element name="Datum" type="xs:date" />
+                            <xs:element name="Autor" type="xs:string"/>
+                            <xs:element name="Datum" type="xs:date"/>
                             <xs:element name="Bild" type="xs:anyURI" maxOccurs="1" minOccurs="0"/>
                             <xs:element name="Zutaten" maxOccurs="1" minOccurs="1">
                                 <xs:complexType>
@@ -90,8 +90,14 @@
                             <xs:element name="Kommentare" maxOccurs="1" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>
-                                        <xs:element name="Kommentar" type="xs:string" maxOccurs="unbounded"
-                                                    minOccurs="0"/>
+                                        <xs:element name="Kommentar" maxOccurs="unbounded"
+                                                    minOccurs="0">
+                                            <xs:complexType>
+                                                <xs:attribute name="Autor" type="xs:string"/>
+                                                <xs:attribute name="Datum" type="xs:date"/>
+                                                <xs:attribute name="Uhrzeit" type="xs:time"/>
+                                            </xs:complexType>
+                                        </xs:element>
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>

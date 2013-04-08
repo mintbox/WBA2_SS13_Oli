@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f25afb8b-dbde-4cf9-8936-f962926d2467" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="DELETED" beforePath="C:\Users\Oli\git\WBA2_SS13_Oli\WBA2_Phase1\src\generated\ObjectFactory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Oli\git\WBA2_SS13_Oli\WBA2_Phase1\src\generated\Rezepte.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_3a.xml" afterPath="$PROJECT_DIR$/src/Aufgabe_3a.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_3d.xsd" afterPath="$PROJECT_DIR$/src/Aufgabe_3d.xsd" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" afterPath="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd" afterPath="$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java" afterPath="$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="WBA2_Phase1.iws" />
@@ -83,7 +80,7 @@
       <file leaf-file-name="Aufgabe_3a.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="54" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0">
+            <state line="13" column="116" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -92,7 +89,25 @@
       <file leaf-file-name="Aufgabe_3d_V2.xsd" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="68" selection-start="5539" selection-end="5539" vertical-scroll-proportion="2.3030303">
+            <state line="100" column="58" selection-start="7207" selection-end="7207" vertical-scroll-proportion="0.6060606">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aufgabe_3d_V21.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V21.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="77" column="72" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Aufgabe_4b.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="35" column="43" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -121,8 +136,12 @@
         <option value="$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java" />
         <option value="$PROJECT_DIR$/src/Aufgabe_3d.xsd" />
         <option value="$PROJECT_DIR$/src/Aufgabe_3d.xsd.xml" />
-        <option value="$PROJECT_DIR$/src/Aufgabe_3a.xml" />
         <option value="$PROJECT_DIR$/src/NewXMLSchema.xsd" />
+        <option value="$PROJECT_DIR$/src/Aufgabe_3d_V2.xml" />
+        <option value="$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java" />
+        <option value="$PROJECT_DIR$/src/Aufgabe_3a.xml" />
+        <option value="$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd" />
+        <option value="$PROJECT_DIR$/src/Aufgabe_3d_V21.xml" />
       </list>
     </option>
   </component>
@@ -251,7 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="marshalling" />
+              <option name="myItemId" value="Aufgabe_4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -455,7 +474,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -476,7 +495,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1719697" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1719697" sideWeight="0.6712095" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -555,20 +574,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_5">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="122" selection-start="161" selection-end="161" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd">
       <provider selected="true" editor-type-id="text-editor">
         <state line="68" column="29" selection-start="4803" selection-end="4803" vertical-scroll-proportion="0.0">
@@ -629,30 +634,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/marshalling/Aufgabe_4b.java">
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="43" selection-start="663" selection-end="663" vertical-scroll-proportion="0.0">
+        <state line="13" column="116" selection-start="658" selection-end="658" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_4/Aufgabe_4b.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="35" column="43" selection-start="961" selection-end="961" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V21.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="72" selection-start="3281" selection-end="3281" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="29" selection-start="4876" selection-end="4876" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Aufgabe_3a.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="54" selection-start="1245" selection-end="1245" vertical-scroll-proportion="0.0">
+        <state line="68" column="95" selection-start="4846" selection-end="4846" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Aufgabe_3d_V2.xsd">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="68" selection-start="5539" selection-end="5539" vertical-scroll-proportion="2.3030303">
+        <state line="100" column="58" selection-start="7207" selection-end="7207" vertical-scroll-proportion="0.6060606">
           <folding />
         </state>
       </provider>
