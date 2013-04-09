@@ -5,16 +5,19 @@
     <xs:element name="Rezepte">
         <xs:complexType>
             <xs:sequence>
+            	<!-- Mindestens ein Rezeot muss vorhanden sein -->
                 <xs:element name="Rezept" maxOccurs="unbounded" minOccurs="1">
                     <xs:complexType>
                         <xs:sequence>
                             <xs:element name="Titel" type="xs:string" maxOccurs="1" minOccurs="1"/>
                             <xs:element name="Autor" type="xs:string"/>
                             <xs:element name="Datum" type="xs:date"/>
+                            <!-- Bilder werden als einfache URL geladen -->
                             <xs:element name="Bild" type="xs:anyURI" maxOccurs="1" minOccurs="0"/>
                             <xs:element name="Zutaten" maxOccurs="1" minOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
+                                    	<!-- Jedes Rezept braucht mindestens eine Zutat -->
                                         <xs:element name="Zutat" maxOccurs="unbounded" minOccurs="1">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -25,6 +28,7 @@
                                                 </xs:sequence>
                                                 <xs:attribute name="Einheit" default="g">
                                                     <xs:simpleType>
+                                                    	<!-- Es stehen nur die folgenden Einheiten zur Auswahl -->
                                                         <xs:restriction base="xs:string">
                                                             <xs:enumeration value="g"/>
                                                             <xs:enumeration value="Pck."/>
@@ -62,6 +66,7 @@
                                                 </xs:attribute>
                                             </xs:complexType>
                                         </xs:element>
+                                        <!-- Da nicht alle Rezepte eine Ruhezeit einschließen ist es optional -->
                                         <xs:element name="Ruhezeit" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -79,6 +84,7 @@
                                         </xs:element>
                                         <xs:element name="Schwierigkeitsgrad">
                                             <xs:simpleType>
+                                            	<!-- Beschränkung auf folgende Werte zur Auswahl -->
                                                 <xs:restriction base="xs:string">
                                                     <xs:enumeration value="simpel"/>
                                                     <xs:enumeration value="normal"/>
@@ -86,6 +92,7 @@
                                                 </xs:restriction>
                                             </xs:simpleType>
                                         </xs:element>
+                                        <!-- Brennwert optional -->
                                         <xs:element name="Brennwert" maxOccurs="1" minOccurs="0">
                                             <xs:complexType>
                                                 <xs:sequence>
@@ -104,6 +111,7 @@
                                     </xs:sequence>
                                 </xs:complexType>
                             </xs:element>
+                            <!-- Es müssen keine Kommentare vorhanden sein -->
                             <xs:element name="Kommentare" maxOccurs="1" minOccurs="0">
                                 <xs:complexType>
                                     <xs:sequence>

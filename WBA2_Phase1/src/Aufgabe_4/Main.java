@@ -123,12 +123,24 @@ public class Main{
 			
 			Writer w = new FileWriter(datei);
 			String newKommentar = null;
+			int x = 0, y = 0;
+			System.out.println("Bitte wähle ein Rezept für deinen Kommentar aus.");
+			y = scanner.nextInt();
+			if(x > rezepte.getRezept().size()){
+				System.out.println("Dieses Rezept existiert nicht.");
+				return;
+			}
+			System.out.println("Schreibe deinen Kommentar: ");
+			newKommentar = getInput();
 			
-		
-		
+			
 	}
 	
-	
+	public static String getInput(){
+		Scanner input = new Scanner(System.in);
+		return input.nextLine();
+		
+	}
 	
 	
 	
