@@ -20,12 +20,11 @@ import Aufgabe_4.Rezepte.Rezept.Kommentare;
 
 public class Main{
 
-	/**
-	 * @param args
-	 */
+	static Scanner scanner = new Scanner (System.in);
 	public static void main(String[] args) throws Exception {
 
-		
+		Boolean anzeige = true;
+		int eingabe = 0;
 		
 		// Datei zum einlesen (XML)
 		File datei = new File("/Users/Oli/git/WBA2_SS13_Oli/WBA2_Phase1/src/Aufgabe_3d.xml");
@@ -39,7 +38,31 @@ public class Main{
         // Datei einlesen
         Rezepte rezepte = (Rezepte) um.unmarshal(datei);
 
-        ausgeben(rezepte);
+        
+        // Menü
+        while(anzeige){
+        	System.out.println();
+        	System.out.println("1. Ausgabe XML Datei");
+        	System.out.println("2. Neuen Kommentar verfassen");
+        	System.out.println("3. Beenden");
+        	System.out.println();
+        	eingabe = scanner.nextInt();
+        	
+        	// Ausgabe XML Datei
+        	if(eingabe==1){
+        		ausgeben(rezepte);
+        	}
+        	
+        	// Neuen Kommentar verfassen
+        	if(eingabe==2){
+        		
+        	}
+        	
+        	// Menü beenden
+        	if(eingabe==3){
+        		anzeige = false;
+        	}
+        }
         
         
 	}
@@ -92,10 +115,15 @@ public class Main{
 				System.out.println();
 			}
 			System.out.println();
-			
+			System.out.println();
 		}
-		
-		
+	}
+	
+		public static void insertKommentar(Rezepte rezepte, File datei, Marshaller m) throws Exception {
+			
+			Writer w = new FileWriter(datei);
+			String newKommentar = null;
+			
 		
 		
 	}

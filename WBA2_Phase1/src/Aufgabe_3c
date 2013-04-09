@@ -67,7 +67,7 @@ Mögliche Restriktionen u.A.:
 Die Zubereitungsschritte und die Kommentare können mehrfach vorkommen, bedeutet das ich hier wieder vor habe mit minOccurs und maxOccurs arbeiten werde.
 
 
-EDIT (nach beenden der Aufgabe 3d):
+EDIT:
 Wie schon in Aufgabe 3a erwähnt ließen sich einzelne Rezepte auch in separate Dokumente speichern. In diesem Falle würde ein Link in XSD so aussehen:
 
 <xs:element name=“link“>
