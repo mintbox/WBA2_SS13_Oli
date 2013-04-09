@@ -27,7 +27,7 @@ public class Main{
 
 		
 		
-		// Datei auswählen (XML)
+		// Datei zum einlesen (XML)
 		File datei = new File("/Users/Oli/git/WBA2_SS13_Oli/WBA2_Phase1/src/Aufgabe_3d.xml");
 		
 		
