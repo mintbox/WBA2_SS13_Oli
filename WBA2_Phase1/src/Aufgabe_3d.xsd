@@ -17,6 +17,7 @@
                             <xs:element name="Zutaten" maxOccurs="1" minOccurs="1">
                                 <xs:complexType>
                                     <xs:sequence>
+                                        <!-- Hier wären noch Portionen möglich die ich als banal erachte -->
                                     	<!-- Jedes Rezept braucht mindestens eine Zutat -->
                                         <xs:element name="Zutat" maxOccurs="unbounded" minOccurs="1">
                                             <xs:complexType>

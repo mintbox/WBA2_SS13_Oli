@@ -10,8 +10,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.Writer;
+import java.sql.Timestamp;
 import java.util.Scanner;
-
 
 public class Main {
 
@@ -131,15 +131,19 @@ public class Main {
         Kommentare.Kommentar newcomment = new Kommentare.Kommentar();
         System.out.println("Name: ");
         newcomment.setAutor(getString());
+        // Automatische generierung der Systemzeit
+        Timestamp tstamp = new Timestamp(System.currentTimeMillis());
+        System.out.println("Datum: " + tstamp);
         System.out.println("Kommentar: ");
         newcomment.setText(getString());
+
         // Formatierter Output, da XML editiert wird
         m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
         // Kommentar hinzufügen
         rezepte.getRezept().get(0).getKommentare().getKommentar().add(x, newcomment);
         m.marshal(rezepte, w);
     }
-    // Bugfixing
+    // Bugfixing (Scanner wartet ohne eigene Methode nicht auf Eingabe vom Nutzer!)
     public static String getString() {
         Scanner input = new Scanner(System.in);
         return input.nextLine();

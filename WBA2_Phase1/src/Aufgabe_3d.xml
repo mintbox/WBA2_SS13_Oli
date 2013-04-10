@@ -70,10 +70,8 @@
             </Arbeitsschritte>
         </Zubereitung>
         <Kommentare>
-            <Kommentar Autor="bibi14" Datum="2008-01-26" Uhrzeit="11:25:00"
-                       Text="Hallo Burgi, dein Toast Brot hab ich schon zweimal gebacken , schnell und einfach super. Überhaupt deine ganzen Rezepte, Kompliment. Mach weiter so. Liebe grüße Gaby(bibi14)"/>
-            <Kommentar Autor="Lubu" Datum="2008-01-26" Uhrzeit="12:27:00"
-                       Text="Liebe Gaby, mich freuts, dass er gelungen und auch gut schmeckt; ich backe auch nur mehr nach diesem Rezept. Danke! LG Burgi"/>
+            <Kommentar Autor="bibi14" Datum="2008-01-26" Uhrzeit="11:25:00" Text="Hallo Burgi, dein Toast Brot hab ich schon zweimal gebacken , schnell und einfach super. Überhaupt deine ganzen Rezepte, Kompliment. Mach weiter so. Liebe grüße Gaby(bibi14)"/>
+            <Kommentar Autor="Lubu" Datum="2008-01-26" Uhrzeit="12:27:00" Text="Liebe Gaby, mich freuts, dass er gelungen und auch gut schmeckt; ich backe auch nur mehr nach diesem Rezept. Danke! LG Burgi"/>
         </Kommentare>
     </Rezept>
     <Rezept>
@@ -147,10 +145,8 @@
             </Arbeitsschritte>
         </Zubereitung>
         <Kommentare>
-            <Kommentar Autor="Anyana" Datum="2004-11-16" Uhrzeit="10:42:00"
-                       Text="Lecker, lecker, lecker! Und vorallem leicht zu machen. Danke für dieses Rezept!! "/>
-            <Kommentar Autor="strolch991" Datum="2004-11-21" Uhrzeit="16:57:00"
-                       Text="Sehr lecker! Einfach zu machen und gar nicht aufwendig. Wird wieder gebacken."/>
+            <Kommentar Autor="Anyana" Datum="2004-11-16" Uhrzeit="10:42:00" Text="Lecker, lecker, lecker! Und vorallem leicht zu machen. Danke für dieses Rezept!! "/>
+            <Kommentar Autor="strolch991" Datum="2004-11-21" Uhrzeit="16:57:00" Text="Sehr lecker! Einfach zu machen und gar nicht aufwendig. Wird wieder gebacken."/>
         </Kommentare>
     </Rezept>
 </Rezepte>

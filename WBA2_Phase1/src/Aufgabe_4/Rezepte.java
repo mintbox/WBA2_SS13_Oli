@@ -1,8 +1,8 @@
 //
-// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert 
-// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
-// Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
-// Generiert: 2013.04.08 um 08:13:47 PM CEST 
+// Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.6 generiert
+// Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a>
+// Ã„nderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren.
+// Generiert: 2013.04.08 um 08:13:47 PM CEST
 //
 
 
@@ -22,176 +22,176 @@ import javax.xml.datatype.XMLGregorianCalendar;
 
 
 /**
- * <p>Java-Klasse für anonymous complex type.
- * 
+ * <p>Java-Klasse fÃ¼r anonymous complex type.
+ *
  * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
- * 
+ *
  * <pre>
  * &lt;complexType>
- *   &lt;complexContent>
- *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *       &lt;sequence>
- *         &lt;element name="Rezept" maxOccurs="unbounded">
- *           &lt;complexType>
- *             &lt;complexContent>
- *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                 &lt;sequence>
- *                   &lt;element name="Titel" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                   &lt;element name="Autor" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                   &lt;element name="Datum" type="{http://www.w3.org/2001/XMLSchema}date"/>
- *                   &lt;element name="Bild" type="{http://www.w3.org/2001/XMLSchema}anyURI" minOccurs="0"/>
- *                   &lt;element name="Zutaten">
- *                     &lt;complexType>
- *                       &lt;complexContent>
- *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                           &lt;sequence>
- *                             &lt;element name="Zutat" maxOccurs="unbounded">
- *                               &lt;complexType>
- *                                 &lt;complexContent>
- *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                                     &lt;sequence>
- *                                       &lt;element name="Name" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                                       &lt;element name="Menge" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
- *                                     &lt;/sequence>
- *                                     &lt;attribute name="Einheit" default="g">
- *                                       &lt;simpleType>
- *                                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *                                           &lt;enumeration value="g"/>
- *                                           &lt;enumeration value="Pck."/>
- *                                           &lt;enumeration value="EL"/>
- *                                           &lt;enumeration value="ml"/>
- *                                           &lt;enumeration value="Prise"/>
- *                                           &lt;enumeration value="Dose"/>
- *                                           &lt;enumeration value="TL"/>
- *                                           &lt;enumeration value="Pkt."/>
- *                                           &lt;enumeration value="Stk."/>
- *                                           &lt;enumeration value="Flasche"/>
- *                                         &lt;/restriction>
- *                                       &lt;/simpleType>
- *                                     &lt;/attribute>
- *                                   &lt;/restriction>
- *                                 &lt;/complexContent>
- *                               &lt;/complexType>
- *                             &lt;/element>
- *                           &lt;/sequence>
- *                         &lt;/restriction>
- *                       &lt;/complexContent>
- *                     &lt;/complexType>
- *                   &lt;/element>
- *                   &lt;element name="Zubereitung">
- *                     &lt;complexType>
- *                       &lt;complexContent>
- *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                           &lt;sequence>
- *                             &lt;element name="Arbeitszeit">
- *                               &lt;complexType>
- *                                 &lt;complexContent>
- *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                                     &lt;sequence>
- *                                       &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
- *                                     &lt;/sequence>
- *                                     &lt;attribute name="Einheit">
- *                                       &lt;simpleType>
- *                                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *                                           &lt;enumeration value="std"/>
- *                                           &lt;enumeration value="min"/>
- *                                         &lt;/restriction>
- *                                       &lt;/simpleType>
- *                                     &lt;/attribute>
- *                                   &lt;/restriction>
- *                                 &lt;/complexContent>
- *                               &lt;/complexType>
- *                             &lt;/element>
- *                             &lt;element name="Ruhezeit" minOccurs="0">
- *                               &lt;complexType>
- *                                 &lt;complexContent>
- *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                                     &lt;sequence>
- *                                       &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
- *                                     &lt;/sequence>
- *                                     &lt;attribute name="Einheit">
- *                                       &lt;simpleType>
- *                                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *                                           &lt;enumeration value="std"/>
- *                                           &lt;enumeration value="min"/>
- *                                         &lt;/restriction>
- *                                       &lt;/simpleType>
- *                                     &lt;/attribute>
- *                                   &lt;/restriction>
- *                                 &lt;/complexContent>
- *                               &lt;/complexType>
- *                             &lt;/element>
- *                             &lt;element name="Schwierigkeitsgrad">
- *                               &lt;simpleType>
- *                                 &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *                                   &lt;enumeration value="simpel"/>
- *                                   &lt;enumeration value="normal"/>
- *                                   &lt;enumeration value="pfiffig"/>
- *                                 &lt;/restriction>
- *                               &lt;/simpleType>
- *                             &lt;/element>
- *                             &lt;element name="Brennwert" minOccurs="0">
- *                               &lt;complexType>
- *                                 &lt;complexContent>
- *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                                     &lt;sequence>
- *                                       &lt;element name="Anzahl" type="{http://www.w3.org/2001/XMLSchema}integer"/>
- *                                     &lt;/sequence>
- *                                     &lt;attribute name="Einheit">
- *                                       &lt;simpleType>
- *                                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
- *                                           &lt;enumeration value="kcal"/>
- *                                         &lt;/restriction>
- *                                       &lt;/simpleType>
- *                                     &lt;/attribute>
- *                                   &lt;/restriction>
- *                                 &lt;/complexContent>
- *                               &lt;/complexType>
- *                             &lt;/element>
- *                             &lt;element name="Arbeitsschritte" type="{http://www.w3.org/2001/XMLSchema}string"/>
- *                           &lt;/sequence>
- *                         &lt;/restriction>
- *                       &lt;/complexContent>
- *                     &lt;/complexType>
- *                   &lt;/element>
- *                   &lt;element name="Kommentare" minOccurs="0">
- *                     &lt;complexType>
- *                       &lt;complexContent>
- *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                           &lt;sequence>
- *                             &lt;element name="Kommentar" maxOccurs="unbounded" minOccurs="0">
- *                               &lt;complexType>
- *                                 &lt;complexContent>
- *                                   &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
- *                                     &lt;attribute name="Autor" type="{http://www.w3.org/2001/XMLSchema}string" />
- *                                     &lt;attribute name="Datum" type="{http://www.w3.org/2001/XMLSchema}date" />
- *                                     &lt;attribute name="Uhrzeit" type="{http://www.w3.org/2001/XMLSchema}time" />
- *                                     &lt;attribute name="Text" type="{http://www.w3.org/2001/XMLSchema}string" />
- *                                   &lt;/restriction>
- *                                 &lt;/complexContent>
- *                               &lt;/complexType>
- *                             &lt;/element>
- *                           &lt;/sequence>
- *                         &lt;/restriction>
- *                       &lt;/complexContent>
- *                     &lt;/complexType>
- *                   &lt;/element>
- *                 &lt;/sequence>
- *               &lt;/restriction>
- *             &lt;/complexContent>
- *           &lt;/complexType>
- *         &lt;/element>
- *       &lt;/sequence>
- *     &lt;/restriction>
- *   &lt;/complexContent>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Rezept" maxOccurs="unbounded">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Titel" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ * &lt;element name="Autor" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ * &lt;element name="Datum" type="{http://www.w3.org/2001/XMLSchema}date"/>
+ * &lt;element name="Bild" type="{http://www.w3.org/2001/XMLSchema}anyURI" minOccurs="0"/>
+ * &lt;element name="Zutaten">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Zutat" maxOccurs="unbounded">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ * &lt;element name="Menge" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
+ * &lt;/sequence>
+ * &lt;attribute name="Einheit" default="g">
+ * &lt;simpleType>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+ * &lt;enumeration value="g"/>
+ * &lt;enumeration value="Pck."/>
+ * &lt;enumeration value="EL"/>
+ * &lt;enumeration value="ml"/>
+ * &lt;enumeration value="Prise"/>
+ * &lt;enumeration value="Dose"/>
+ * &lt;enumeration value="TL"/>
+ * &lt;enumeration value="Pkt."/>
+ * &lt;enumeration value="Stk."/>
+ * &lt;enumeration value="Flasche"/>
+ * &lt;/restriction>
+ * &lt;/simpleType>
+ * &lt;/attribute>
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;/sequence>
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;element name="Zubereitung">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Arbeitszeit">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+ * &lt;/sequence>
+ * &lt;attribute name="Einheit">
+ * &lt;simpleType>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+ * &lt;enumeration value="std"/>
+ * &lt;enumeration value="min"/>
+ * &lt;/restriction>
+ * &lt;/simpleType>
+ * &lt;/attribute>
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;element name="Ruhezeit" minOccurs="0">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+ * &lt;/sequence>
+ * &lt;attribute name="Einheit">
+ * &lt;simpleType>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+ * &lt;enumeration value="std"/>
+ * &lt;enumeration value="min"/>
+ * &lt;/restriction>
+ * &lt;/simpleType>
+ * &lt;/attribute>
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;element name="Schwierigkeitsgrad">
+ * &lt;simpleType>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+ * &lt;enumeration value="simpel"/>
+ * &lt;enumeration value="normal"/>
+ * &lt;enumeration value="pfiffig"/>
+ * &lt;/restriction>
+ * &lt;/simpleType>
+ * &lt;/element>
+ * &lt;element name="Brennwert" minOccurs="0">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Anzahl" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+ * &lt;/sequence>
+ * &lt;attribute name="Einheit">
+ * &lt;simpleType>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+ * &lt;enumeration value="kcal"/>
+ * &lt;/restriction>
+ * &lt;/simpleType>
+ * &lt;/attribute>
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;element name="Arbeitsschritte" type="{http://www.w3.org/2001/XMLSchema}string"/>
+ * &lt;/sequence>
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;element name="Kommentare" minOccurs="0">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;sequence>
+ * &lt;element name="Kommentar" maxOccurs="unbounded" minOccurs="0">
+ * &lt;complexType>
+ * &lt;complexContent>
+ * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+ * &lt;attribute name="Autor" type="{http://www.w3.org/2001/XMLSchema}string" />
+ * &lt;attribute name="Datum" type="{http://www.w3.org/2001/XMLSchema}date" />
+ * &lt;attribute name="Uhrzeit" type="{http://www.w3.org/2001/XMLSchema}time" />
+ * &lt;attribute name="Text" type="{http://www.w3.org/2001/XMLSchema}string" />
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;/sequence>
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;/sequence>
+ * &lt;/restriction>
+ * &lt;/complexContent>
+ * &lt;/complexType>
+ * &lt;/element>
+ * &lt;/sequence>
+ * &lt;/restriction>
+ * &lt;/complexContent>
  * &lt;/complexType>
  * </pre>
- * 
- * 
+ *
+ *
  */
 @XmlAccessorType(XmlAccessType.FIELD)
 @XmlType(name = "", propOrder = {
-    "rezept"
+        "rezept"
 })
 @XmlRootElement(name = "Rezepte")
 public class Rezepte {
@@ -201,25 +201,25 @@ public class Rezepte {
 
     /**
      * Gets the value of the rezept property.
-     * 
+     *
      * <p>
      * This accessor method returns a reference to the live list,
      * not a snapshot. Therefore any modification you make to the
      * returned list will be present inside the JAXB object.
      * This is why there is not a <CODE>set</CODE> method for the rezept property.
-     * 
+     *
      * <p>
      * For example, to add a new item, do as follows:
      * <pre>
-     *    getRezept().add(newItem);
+     * getRezept().add(newItem);
      * </pre>
-     * 
-     * 
+     *
+     *
      * <p>
      * Objects of the following type(s) are allowed in the list
      * {@link Rezepte.Rezept }
-     * 
-     * 
+     *
+     *
      */
     public List<Rezepte.Rezept> getRezept() {
         if (rezept == null) {
@@ -230,172 +230,172 @@ public class Rezepte {
 
 
     /**
-     * <p>Java-Klasse für anonymous complex type.
-     * 
+     * <p>Java-Klasse fÃ¼r anonymous complex type.
+     *
      * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-     * 
+     *
      * <pre>
      * &lt;complexType>
-     *   &lt;complexContent>
-     *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *       &lt;sequence>
-     *         &lt;element name="Titel" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *         &lt;element name="Autor" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *         &lt;element name="Datum" type="{http://www.w3.org/2001/XMLSchema}date"/>
-     *         &lt;element name="Bild" type="{http://www.w3.org/2001/XMLSchema}anyURI" minOccurs="0"/>
-     *         &lt;element name="Zutaten">
-     *           &lt;complexType>
-     *             &lt;complexContent>
-     *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                 &lt;sequence>
-     *                   &lt;element name="Zutat" maxOccurs="unbounded">
-     *                     &lt;complexType>
-     *                       &lt;complexContent>
-     *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                           &lt;sequence>
-     *                             &lt;element name="Name" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                             &lt;element name="Menge" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
-     *                           &lt;/sequence>
-     *                           &lt;attribute name="Einheit" default="g">
-     *                             &lt;simpleType>
-     *                               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-     *                                 &lt;enumeration value="g"/>
-     *                                 &lt;enumeration value="Pck."/>
-     *                                 &lt;enumeration value="EL"/>
-     *                                 &lt;enumeration value="ml"/>
-     *                                 &lt;enumeration value="Prise"/>
-     *                                 &lt;enumeration value="Dose"/>
-     *                                 &lt;enumeration value="TL"/>
-     *                                 &lt;enumeration value="Pkt."/>
-     *                                 &lt;enumeration value="Stk."/>
-     *                                 &lt;enumeration value="Flasche"/>
-     *                               &lt;/restriction>
-     *                             &lt;/simpleType>
-     *                           &lt;/attribute>
-     *                         &lt;/restriction>
-     *                       &lt;/complexContent>
-     *                     &lt;/complexType>
-     *                   &lt;/element>
-     *                 &lt;/sequence>
-     *               &lt;/restriction>
-     *             &lt;/complexContent>
-     *           &lt;/complexType>
-     *         &lt;/element>
-     *         &lt;element name="Zubereitung">
-     *           &lt;complexType>
-     *             &lt;complexContent>
-     *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                 &lt;sequence>
-     *                   &lt;element name="Arbeitszeit">
-     *                     &lt;complexType>
-     *                       &lt;complexContent>
-     *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                           &lt;sequence>
-     *                             &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-     *                           &lt;/sequence>
-     *                           &lt;attribute name="Einheit">
-     *                             &lt;simpleType>
-     *                               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-     *                                 &lt;enumeration value="std"/>
-     *                                 &lt;enumeration value="min"/>
-     *                               &lt;/restriction>
-     *                             &lt;/simpleType>
-     *                           &lt;/attribute>
-     *                         &lt;/restriction>
-     *                       &lt;/complexContent>
-     *                     &lt;/complexType>
-     *                   &lt;/element>
-     *                   &lt;element name="Ruhezeit" minOccurs="0">
-     *                     &lt;complexType>
-     *                       &lt;complexContent>
-     *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                           &lt;sequence>
-     *                             &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-     *                           &lt;/sequence>
-     *                           &lt;attribute name="Einheit">
-     *                             &lt;simpleType>
-     *                               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-     *                                 &lt;enumeration value="std"/>
-     *                                 &lt;enumeration value="min"/>
-     *                               &lt;/restriction>
-     *                             &lt;/simpleType>
-     *                           &lt;/attribute>
-     *                         &lt;/restriction>
-     *                       &lt;/complexContent>
-     *                     &lt;/complexType>
-     *                   &lt;/element>
-     *                   &lt;element name="Schwierigkeitsgrad">
-     *                     &lt;simpleType>
-     *                       &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-     *                         &lt;enumeration value="simpel"/>
-     *                         &lt;enumeration value="normal"/>
-     *                         &lt;enumeration value="pfiffig"/>
-     *                       &lt;/restriction>
-     *                     &lt;/simpleType>
-     *                   &lt;/element>
-     *                   &lt;element name="Brennwert" minOccurs="0">
-     *                     &lt;complexType>
-     *                       &lt;complexContent>
-     *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                           &lt;sequence>
-     *                             &lt;element name="Anzahl" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-     *                           &lt;/sequence>
-     *                           &lt;attribute name="Einheit">
-     *                             &lt;simpleType>
-     *                               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-     *                                 &lt;enumeration value="kcal"/>
-     *                               &lt;/restriction>
-     *                             &lt;/simpleType>
-     *                           &lt;/attribute>
-     *                         &lt;/restriction>
-     *                       &lt;/complexContent>
-     *                     &lt;/complexType>
-     *                   &lt;/element>
-     *                   &lt;element name="Arbeitsschritte" type="{http://www.w3.org/2001/XMLSchema}string"/>
-     *                 &lt;/sequence>
-     *               &lt;/restriction>
-     *             &lt;/complexContent>
-     *           &lt;/complexType>
-     *         &lt;/element>
-     *         &lt;element name="Kommentare" minOccurs="0">
-     *           &lt;complexType>
-     *             &lt;complexContent>
-     *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                 &lt;sequence>
-     *                   &lt;element name="Kommentar" maxOccurs="unbounded" minOccurs="0">
-     *                     &lt;complexType>
-     *                       &lt;complexContent>
-     *                         &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-     *                           &lt;attribute name="Autor" type="{http://www.w3.org/2001/XMLSchema}string" />
-     *                           &lt;attribute name="Datum" type="{http://www.w3.org/2001/XMLSchema}date" />
-     *                           &lt;attribute name="Uhrzeit" type="{http://www.w3.org/2001/XMLSchema}time" />
-     *                           &lt;attribute name="Text" type="{http://www.w3.org/2001/XMLSchema}string" />
-     *                         &lt;/restriction>
-     *                       &lt;/complexContent>
-     *                     &lt;/complexType>
-     *                   &lt;/element>
-     *                 &lt;/sequence>
-     *               &lt;/restriction>
-     *             &lt;/complexContent>
-     *           &lt;/complexType>
-     *         &lt;/element>
-     *       &lt;/sequence>
-     *     &lt;/restriction>
-     *   &lt;/complexContent>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;sequence>
+     * &lt;element name="Titel" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     * &lt;element name="Autor" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     * &lt;element name="Datum" type="{http://www.w3.org/2001/XMLSchema}date"/>
+     * &lt;element name="Bild" type="{http://www.w3.org/2001/XMLSchema}anyURI" minOccurs="0"/>
+     * &lt;element name="Zutaten">
+     * &lt;complexType>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;sequence>
+     * &lt;element name="Zutat" maxOccurs="unbounded">
+     * &lt;complexType>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;sequence>
+     * &lt;element name="Name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     * &lt;element name="Menge" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
+     * &lt;/sequence>
+     * &lt;attribute name="Einheit" default="g">
+     * &lt;simpleType>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+     * &lt;enumeration value="g"/>
+     * &lt;enumeration value="Pck."/>
+     * &lt;enumeration value="EL"/>
+     * &lt;enumeration value="ml"/>
+     * &lt;enumeration value="Prise"/>
+     * &lt;enumeration value="Dose"/>
+     * &lt;enumeration value="TL"/>
+     * &lt;enumeration value="Pkt."/>
+     * &lt;enumeration value="Stk."/>
+     * &lt;enumeration value="Flasche"/>
+     * &lt;/restriction>
+     * &lt;/simpleType>
+     * &lt;/attribute>
+     * &lt;/restriction>
+     * &lt;/complexContent>
+     * &lt;/complexType>
+     * &lt;/element>
+     * &lt;/sequence>
+     * &lt;/restriction>
+     * &lt;/complexContent>
+     * &lt;/complexType>
+     * &lt;/element>
+     * &lt;element name="Zubereitung">
+     * &lt;complexType>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;sequence>
+     * &lt;element name="Arbeitszeit">
+     * &lt;complexType>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;sequence>
+     * &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+     * &lt;/sequence>
+     * &lt;attribute name="Einheit">
+     * &lt;simpleType>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+     * &lt;enumeration value="std"/>
+     * &lt;enumeration value="min"/>
+     * &lt;/restriction>
+     * &lt;/simpleType>
+     * &lt;/attribute>
+     * &lt;/restriction>
+     * &lt;/complexContent>
+     * &lt;/complexType>
+     * &lt;/element>
+     * &lt;element name="Ruhezeit" minOccurs="0">
+     * &lt;complexType>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;sequence>
+     * &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+     * &lt;/sequence>
+     * &lt;attribute name="Einheit">
+     * &lt;simpleType>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+     * &lt;enumeration value="std"/>
+     * &lt;enumeration value="min"/>
+     * &lt;/restriction>
+     * &lt;/simpleType>
+     * &lt;/attribute>
+     * &lt;/restriction>
+     * &lt;/complexContent>
+     * &lt;/complexType>
+     * &lt;/element>
+     * &lt;element name="Schwierigkeitsgrad">
+     * &lt;simpleType>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+     * &lt;enumeration value="simpel"/>
+     * &lt;enumeration value="normal"/>
+     * &lt;enumeration value="pfiffig"/>
+     * &lt;/restriction>
+     * &lt;/simpleType>
+     * &lt;/element>
+     * &lt;element name="Brennwert" minOccurs="0">
+     * &lt;complexType>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;sequence>
+     * &lt;element name="Anzahl" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+     * &lt;/sequence>
+     * &lt;attribute name="Einheit">
+     * &lt;simpleType>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+     * &lt;enumeration value="kcal"/>
+     * &lt;/restriction>
+     * &lt;/simpleType>
+     * &lt;/attribute>
+     * &lt;/restriction>
+     * &lt;/complexContent>
+     * &lt;/complexType>
+     * &lt;/element>
+     * &lt;element name="Arbeitsschritte" type="{http://www.w3.org/2001/XMLSchema}string"/>
+     * &lt;/sequence>
+     * &lt;/restriction>
+     * &lt;/complexContent>
+     * &lt;/complexType>
+     * &lt;/element>
+     * &lt;element name="Kommentare" minOccurs="0">
+     * &lt;complexType>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;sequence>
+     * &lt;element name="Kommentar" maxOccurs="unbounded" minOccurs="0">
+     * &lt;complexType>
+     * &lt;complexContent>
+     * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+     * &lt;attribute name="Autor" type="{http://www.w3.org/2001/XMLSchema}string" />
+     * &lt;attribute name="Datum" type="{http://www.w3.org/2001/XMLSchema}date" />
+     * &lt;attribute name="Uhrzeit" type="{http://www.w3.org/2001/XMLSchema}time" />
+     * &lt;attribute name="Text" type="{http://www.w3.org/2001/XMLSchema}string" />
+     * &lt;/restriction>
+     * &lt;/complexContent>
+     * &lt;/complexType>
+     * &lt;/element>
+     * &lt;/sequence>
+     * &lt;/restriction>
+     * &lt;/complexContent>
+     * &lt;/complexType>
+     * &lt;/element>
+     * &lt;/sequence>
+     * &lt;/restriction>
+     * &lt;/complexContent>
      * &lt;/complexType>
      * </pre>
-     * 
-     * 
+     *
+     *
      */
     @XmlAccessorType(XmlAccessType.FIELD)
     @XmlType(name = "", propOrder = {
-        "titel",
-        "autor",
-        "datum",
-        "bild",
-        "zutaten",
-        "zubereitung",
-        "kommentare"
+            "titel",
+            "autor",
+            "datum",
+            "bild",
+            "zutaten",
+            "zubereitung",
+            "kommentare"
     })
     public static class Rezept {
 
@@ -418,11 +418,11 @@ public class Rezepte {
 
         /**
          * Ruft den Wert der titel-Eigenschaft ab.
-         * 
+         *
          * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         * possible object is
+         * {@link String }
+         *
          */
         public String getTitel() {
             return titel;
@@ -430,11 +430,11 @@ public class Rezepte {
 
         /**
          * Legt den Wert der titel-Eigenschaft fest.
-         * 
+         *
          * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         * allowed object is
+         * {@link String }
+         *
          */
         public void setTitel(String value) {
             this.titel = value;
@@ -442,11 +442,11 @@ public class Rezepte {
 
         /**
          * Ruft den Wert der autor-Eigenschaft ab.
-         * 
+         *
          * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         * possible object is
+         * {@link String }
+         *
          */
         public String getAutor() {
             return autor;
@@ -454,11 +454,11 @@ public class Rezepte {
 
         /**
          * Legt den Wert der autor-Eigenschaft fest.
-         * 
+         *
          * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         * allowed object is
+         * {@link String }
+         *
          */
         public void setAutor(String value) {
             this.autor = value;
@@ -466,11 +466,11 @@ public class Rezepte {
 
         /**
          * Ruft den Wert der datum-Eigenschaft ab.
-         * 
+         *
          * @return
-         *     possible object is
-         *     {@link XMLGregorianCalendar }
-         *     
+         * possible object is
+         * {@link XMLGregorianCalendar }
+         *
          */
         public XMLGregorianCalendar getDatum() {
             return datum;
@@ -478,11 +478,11 @@ public class Rezepte {
 
         /**
          * Legt den Wert der datum-Eigenschaft fest.
-         * 
+         *
          * @param value
-         *     allowed object is
-         *     {@link XMLGregorianCalendar }
-         *     
+         * allowed object is
+         * {@link XMLGregorianCalendar }
+         *
          */
         public void setDatum(XMLGregorianCalendar value) {
             this.datum = value;
@@ -490,11 +490,11 @@ public class Rezepte {
 
         /**
          * Ruft den Wert der bild-Eigenschaft ab.
-         * 
+         *
          * @return
-         *     possible object is
-         *     {@link String }
-         *     
+         * possible object is
+         * {@link String }
+         *
          */
         public String getBild() {
             return bild;
@@ -502,11 +502,11 @@ public class Rezepte {
 
         /**
          * Legt den Wert der bild-Eigenschaft fest.
-         * 
+         *
          * @param value
-         *     allowed object is
-         *     {@link String }
-         *     
+         * allowed object is
+         * {@link String }
+         *
          */
         public void setBild(String value) {
             this.bild = value;
@@ -514,11 +514,11 @@ public class Rezepte {
 
         /**
          * Ruft den Wert der zutaten-Eigenschaft ab.
-         * 
+         *
          * @return
-         *     possible object is
-         *     {@link Rezepte.Rezept.Zutaten }
-         *     
+         * possible object is
+         * {@link Rezepte.Rezept.Zutaten }
+         *
          */
         public Rezepte.Rezept.Zutaten getZutaten() {
             return zutaten;
@@ -526,11 +526,11 @@ public class Rezepte {
 
         /**
          * Legt den Wert der zutaten-Eigenschaft fest.
-         * 
+         *
          * @param value
-         *     allowed object is
-         *     {@link Rezepte.Rezept.Zutaten }
-         *     
+         * allowed object is
+         * {@link Rezepte.Rezept.Zutaten }
+         *
          */
         public void setZutaten(Rezepte.Rezept.Zutaten value) {
             this.zutaten = value;
@@ -538,11 +538,11 @@ public class Rezepte {
 
         /**
          * Ruft den Wert der zubereitung-Eigenschaft ab.
-         * 
+         *
          * @return
-         *     possible object is
-         *     {@link Rezepte.Rezept.Zubereitung }
-         *     
+         * possible object is
+         * {@link Rezepte.Rezept.Zubereitung }
+         *
          */
         public Rezepte.Rezept.Zubereitung getZubereitung() {
             return zubereitung;
@@ -550,11 +550,11 @@ public class Rezepte {
 
         /**
          * Legt den Wert der zubereitung-Eigenschaft fest.
-         * 
+         *
          * @param value
-         *     allowed object is
-         *     {@link Rezepte.Rezept.Zubereitung }
-         *     
+         * allowed object is
+         * {@link Rezepte.Rezept.Zubereitung }
+         *
          */
         public void setZubereitung(Rezepte.Rezept.Zubereitung value) {
             this.zubereitung = value;
@@ -562,11 +562,11 @@ public class Rezepte {
 
         /**
          * Ruft den Wert der kommentare-Eigenschaft ab.
-         * 
+         *
          * @return
-         *     possible object is
-         *     {@link Rezepte.Rezept.Kommentare }
-         *     
+         * possible object is
+         * {@link Rezepte.Rezept.Kommentare }
+         *
          */
         public Rezepte.Rezept.Kommentare getKommentare() {
             return kommentare;
@@ -574,11 +574,11 @@ public class Rezepte {
 
         /**
          * Legt den Wert der kommentare-Eigenschaft fest.
-         * 
+         *
          * @param value
-         *     allowed object is
-         *     {@link Rezepte.Rezept.Kommentare }
-         *     
+         * allowed object is
+         * {@link Rezepte.Rezept.Kommentare }
+         *
          */
         public void setKommentare(Rezepte.Rezept.Kommentare value) {
             this.kommentare = value;
@@ -586,38 +586,38 @@ public class Rezepte {
 
 
         /**
-         * <p>Java-Klasse für anonymous complex type.
-         * 
+         * <p>Java-Klasse fÃ¼r anonymous complex type.
+         *
          * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-         * 
+         *
          * <pre>
          * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="Kommentar" maxOccurs="unbounded" minOccurs="0">
-         *           &lt;complexType>
-         *             &lt;complexContent>
-         *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *                 &lt;attribute name="Autor" type="{http://www.w3.org/2001/XMLSchema}string" />
-         *                 &lt;attribute name="Datum" type="{http://www.w3.org/2001/XMLSchema}date" />
-         *                 &lt;attribute name="Uhrzeit" type="{http://www.w3.org/2001/XMLSchema}time" />
-         *                 &lt;attribute name="Text" type="{http://www.w3.org/2001/XMLSchema}string" />
-         *               &lt;/restriction>
-         *             &lt;/complexContent>
-         *           &lt;/complexType>
-         *         &lt;/element>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
+         * &lt;complexContent>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         * &lt;sequence>
+         * &lt;element name="Kommentar" maxOccurs="unbounded" minOccurs="0">
+         * &lt;complexType>
+         * &lt;complexContent>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         * &lt;attribute name="Autor" type="{http://www.w3.org/2001/XMLSchema}string" />
+         * &lt;attribute name="Datum" type="{http://www.w3.org/2001/XMLSchema}date" />
+         * &lt;attribute name="Uhrzeit" type="{http://www.w3.org/2001/XMLSchema}time" />
+         * &lt;attribute name="Text" type="{http://www.w3.org/2001/XMLSchema}string" />
+         * &lt;/restriction>
+         * &lt;/complexContent>
+         * &lt;/complexType>
+         * &lt;/element>
+         * &lt;/sequence>
+         * &lt;/restriction>
+         * &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
+         *
+         *
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "kommentar"
+                "kommentar"
         })
         public static class Kommentare {
 
@@ -626,25 +626,25 @@ public class Rezepte {
 
             /**
              * Gets the value of the kommentar property.
-             * 
+             *
              * <p>
              * This accessor method returns a reference to the live list,
              * not a snapshot. Therefore any modification you make to the
              * returned list will be present inside the JAXB object.
              * This is why there is not a <CODE>set</CODE> method for the kommentar property.
-             * 
+             *
              * <p>
              * For example, to add a new item, do as follows:
              * <pre>
-             *    getKommentar().add(newItem);
+             * getKommentar().add(newItem);
              * </pre>
-             * 
-             * 
+             *
+             *
              * <p>
              * Objects of the following type(s) are allowed in the list
              * {@link Rezepte.Rezept.Kommentare.Kommentar }
-             * 
-             * 
+             *
+             *
              */
             public List<Rezepte.Rezept.Kommentare.Kommentar> getKommentar() {
                 if (kommentar == null) {
@@ -655,24 +655,24 @@ public class Rezepte {
 
 
             /**
-             * <p>Java-Klasse für anonymous complex type.
-             * 
+             * <p>Java-Klasse fÃ¼r anonymous complex type.
+             *
              * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-             * 
+             *
              * <pre>
              * &lt;complexType>
-             *   &lt;complexContent>
-             *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-             *       &lt;attribute name="Autor" type="{http://www.w3.org/2001/XMLSchema}string" />
-             *       &lt;attribute name="Datum" type="{http://www.w3.org/2001/XMLSchema}date" />
-             *       &lt;attribute name="Uhrzeit" type="{http://www.w3.org/2001/XMLSchema}time" />
-             *       &lt;attribute name="Text" type="{http://www.w3.org/2001/XMLSchema}string" />
-             *     &lt;/restriction>
-             *   &lt;/complexContent>
+             * &lt;complexContent>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+             * &lt;attribute name="Autor" type="{http://www.w3.org/2001/XMLSchema}string" />
+             * &lt;attribute name="Datum" type="{http://www.w3.org/2001/XMLSchema}date" />
+             * &lt;attribute name="Uhrzeit" type="{http://www.w3.org/2001/XMLSchema}time" />
+             * &lt;attribute name="Text" type="{http://www.w3.org/2001/XMLSchema}string" />
+             * &lt;/restriction>
+             * &lt;/complexContent>
              * &lt;/complexType>
              * </pre>
-             * 
-             * 
+             *
+             *
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "")
@@ -691,11 +691,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der autor-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link String }
-                 *     
+                 * possible object is
+                 * {@link String }
+                 *
                  */
                 public String getAutor() {
                     return autor;
@@ -703,11 +703,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der autor-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link String }
-                 *     
+                 * allowed object is
+                 * {@link String }
+                 *
                  */
                 public void setAutor(String value) {
                     this.autor = value;
@@ -715,11 +715,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der datum-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link XMLGregorianCalendar }
-                 *     
+                 * possible object is
+                 * {@link XMLGregorianCalendar }
+                 *
                  */
                 public XMLGregorianCalendar getDatum() {
                     return datum;
@@ -727,11 +727,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der datum-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link XMLGregorianCalendar }
-                 *     
+                 * allowed object is
+                 * {@link XMLGregorianCalendar }
+                 *
                  */
                 public void setDatum(XMLGregorianCalendar value) {
                     this.datum = value;
@@ -739,11 +739,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der uhrzeit-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link XMLGregorianCalendar }
-                 *     
+                 * possible object is
+                 * {@link XMLGregorianCalendar }
+                 *
                  */
                 public XMLGregorianCalendar getUhrzeit() {
                     return uhrzeit;
@@ -751,11 +751,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der uhrzeit-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link XMLGregorianCalendar }
-                 *     
+                 * allowed object is
+                 * {@link XMLGregorianCalendar }
+                 *
                  */
                 public void setUhrzeit(XMLGregorianCalendar value) {
                     this.uhrzeit = value;
@@ -763,11 +763,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der text-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link String }
-                 *     
+                 * possible object is
+                 * {@link String }
+                 *
                  */
                 public String getText() {
                     return text;
@@ -775,11 +775,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der text-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link String }
-                 *     
+                 * allowed object is
+                 * {@link String }
+                 *
                  */
                 public void setText(String value) {
                     this.text = value;
@@ -791,96 +791,96 @@ public class Rezepte {
 
 
         /**
-         * <p>Java-Klasse für anonymous complex type.
-         * 
+         * <p>Java-Klasse fÃ¼r anonymous complex type.
+         *
          * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-         * 
+         *
          * <pre>
          * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="Arbeitszeit">
-         *           &lt;complexType>
-         *             &lt;complexContent>
-         *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *                 &lt;sequence>
-         *                   &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-         *                 &lt;/sequence>
-         *                 &lt;attribute name="Einheit">
-         *                   &lt;simpleType>
-         *                     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-         *                       &lt;enumeration value="std"/>
-         *                       &lt;enumeration value="min"/>
-         *                     &lt;/restriction>
-         *                   &lt;/simpleType>
-         *                 &lt;/attribute>
-         *               &lt;/restriction>
-         *             &lt;/complexContent>
-         *           &lt;/complexType>
-         *         &lt;/element>
-         *         &lt;element name="Ruhezeit" minOccurs="0">
-         *           &lt;complexType>
-         *             &lt;complexContent>
-         *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *                 &lt;sequence>
-         *                   &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-         *                 &lt;/sequence>
-         *                 &lt;attribute name="Einheit">
-         *                   &lt;simpleType>
-         *                     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-         *                       &lt;enumeration value="std"/>
-         *                       &lt;enumeration value="min"/>
-         *                     &lt;/restriction>
-         *                   &lt;/simpleType>
-         *                 &lt;/attribute>
-         *               &lt;/restriction>
-         *             &lt;/complexContent>
-         *           &lt;/complexType>
-         *         &lt;/element>
-         *         &lt;element name="Schwierigkeitsgrad">
-         *           &lt;simpleType>
-         *             &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-         *               &lt;enumeration value="simpel"/>
-         *               &lt;enumeration value="normal"/>
-         *               &lt;enumeration value="pfiffig"/>
-         *             &lt;/restriction>
-         *           &lt;/simpleType>
-         *         &lt;/element>
-         *         &lt;element name="Brennwert" minOccurs="0">
-         *           &lt;complexType>
-         *             &lt;complexContent>
-         *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *                 &lt;sequence>
-         *                   &lt;element name="Anzahl" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-         *                 &lt;/sequence>
-         *                 &lt;attribute name="Einheit">
-         *                   &lt;simpleType>
-         *                     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-         *                       &lt;enumeration value="kcal"/>
-         *                     &lt;/restriction>
-         *                   &lt;/simpleType>
-         *                 &lt;/attribute>
-         *               &lt;/restriction>
-         *             &lt;/complexContent>
-         *           &lt;/complexType>
-         *         &lt;/element>
-         *         &lt;element name="Arbeitsschritte" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
+         * &lt;complexContent>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         * &lt;sequence>
+         * &lt;element name="Arbeitszeit">
+         * &lt;complexType>
+         * &lt;complexContent>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         * &lt;sequence>
+         * &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+         * &lt;/sequence>
+         * &lt;attribute name="Einheit">
+         * &lt;simpleType>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+         * &lt;enumeration value="std"/>
+         * &lt;enumeration value="min"/>
+         * &lt;/restriction>
+         * &lt;/simpleType>
+         * &lt;/attribute>
+         * &lt;/restriction>
+         * &lt;/complexContent>
+         * &lt;/complexType>
+         * &lt;/element>
+         * &lt;element name="Ruhezeit" minOccurs="0">
+         * &lt;complexType>
+         * &lt;complexContent>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         * &lt;sequence>
+         * &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+         * &lt;/sequence>
+         * &lt;attribute name="Einheit">
+         * &lt;simpleType>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+         * &lt;enumeration value="std"/>
+         * &lt;enumeration value="min"/>
+         * &lt;/restriction>
+         * &lt;/simpleType>
+         * &lt;/attribute>
+         * &lt;/restriction>
+         * &lt;/complexContent>
+         * &lt;/complexType>
+         * &lt;/element>
+         * &lt;element name="Schwierigkeitsgrad">
+         * &lt;simpleType>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+         * &lt;enumeration value="simpel"/>
+         * &lt;enumeration value="normal"/>
+         * &lt;enumeration value="pfiffig"/>
+         * &lt;/restriction>
+         * &lt;/simpleType>
+         * &lt;/element>
+         * &lt;element name="Brennwert" minOccurs="0">
+         * &lt;complexType>
+         * &lt;complexContent>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         * &lt;sequence>
+         * &lt;element name="Anzahl" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+         * &lt;/sequence>
+         * &lt;attribute name="Einheit">
+         * &lt;simpleType>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+         * &lt;enumeration value="kcal"/>
+         * &lt;/restriction>
+         * &lt;/simpleType>
+         * &lt;/attribute>
+         * &lt;/restriction>
+         * &lt;/complexContent>
+         * &lt;/complexType>
+         * &lt;/element>
+         * &lt;element name="Arbeitsschritte" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         * &lt;/sequence>
+         * &lt;/restriction>
+         * &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
+         *
+         *
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "arbeitszeit",
-            "ruhezeit",
-            "schwierigkeitsgrad",
-            "brennwert",
-            "arbeitsschritte"
+                "arbeitszeit",
+                "ruhezeit",
+                "schwierigkeitsgrad",
+                "brennwert",
+                "arbeitsschritte"
         })
         public static class Zubereitung {
 
@@ -897,11 +897,11 @@ public class Rezepte {
 
             /**
              * Ruft den Wert der arbeitszeit-Eigenschaft ab.
-             * 
+             *
              * @return
-             *     possible object is
-             *     {@link Rezepte.Rezept.Zubereitung.Arbeitszeit }
-             *     
+             * possible object is
+             * {@link Rezepte.Rezept.Zubereitung.Arbeitszeit }
+             *
              */
             public Rezepte.Rezept.Zubereitung.Arbeitszeit getArbeitszeit() {
                 return arbeitszeit;
@@ -909,11 +909,11 @@ public class Rezepte {
 
             /**
              * Legt den Wert der arbeitszeit-Eigenschaft fest.
-             * 
+             *
              * @param value
-             *     allowed object is
-             *     {@link Rezepte.Rezept.Zubereitung.Arbeitszeit }
-             *     
+             * allowed object is
+             * {@link Rezepte.Rezept.Zubereitung.Arbeitszeit }
+             *
              */
             public void setArbeitszeit(Rezepte.Rezept.Zubereitung.Arbeitszeit value) {
                 this.arbeitszeit = value;
@@ -921,11 +921,11 @@ public class Rezepte {
 
             /**
              * Ruft den Wert der ruhezeit-Eigenschaft ab.
-             * 
+             *
              * @return
-             *     possible object is
-             *     {@link Rezepte.Rezept.Zubereitung.Ruhezeit }
-             *     
+             * possible object is
+             * {@link Rezepte.Rezept.Zubereitung.Ruhezeit }
+             *
              */
             public Rezepte.Rezept.Zubereitung.Ruhezeit getRuhezeit() {
                 return ruhezeit;
@@ -933,11 +933,11 @@ public class Rezepte {
 
             /**
              * Legt den Wert der ruhezeit-Eigenschaft fest.
-             * 
+             *
              * @param value
-             *     allowed object is
-             *     {@link Rezepte.Rezept.Zubereitung.Ruhezeit }
-             *     
+             * allowed object is
+             * {@link Rezepte.Rezept.Zubereitung.Ruhezeit }
+             *
              */
             public void setRuhezeit(Rezepte.Rezept.Zubereitung.Ruhezeit value) {
                 this.ruhezeit = value;
@@ -945,11 +945,11 @@ public class Rezepte {
 
             /**
              * Ruft den Wert der schwierigkeitsgrad-Eigenschaft ab.
-             * 
+             *
              * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             * possible object is
+             * {@link String }
+             *
              */
             public String getSchwierigkeitsgrad() {
                 return schwierigkeitsgrad;
@@ -957,11 +957,11 @@ public class Rezepte {
 
             /**
              * Legt den Wert der schwierigkeitsgrad-Eigenschaft fest.
-             * 
+             *
              * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             * allowed object is
+             * {@link String }
+             *
              */
             public void setSchwierigkeitsgrad(String value) {
                 this.schwierigkeitsgrad = value;
@@ -969,11 +969,11 @@ public class Rezepte {
 
             /**
              * Ruft den Wert der brennwert-Eigenschaft ab.
-             * 
+             *
              * @return
-             *     possible object is
-             *     {@link Rezepte.Rezept.Zubereitung.Brennwert }
-             *     
+             * possible object is
+             * {@link Rezepte.Rezept.Zubereitung.Brennwert }
+             *
              */
             public Rezepte.Rezept.Zubereitung.Brennwert getBrennwert() {
                 return brennwert;
@@ -981,11 +981,11 @@ public class Rezepte {
 
             /**
              * Legt den Wert der brennwert-Eigenschaft fest.
-             * 
+             *
              * @param value
-             *     allowed object is
-             *     {@link Rezepte.Rezept.Zubereitung.Brennwert }
-             *     
+             * allowed object is
+             * {@link Rezepte.Rezept.Zubereitung.Brennwert }
+             *
              */
             public void setBrennwert(Rezepte.Rezept.Zubereitung.Brennwert value) {
                 this.brennwert = value;
@@ -993,11 +993,11 @@ public class Rezepte {
 
             /**
              * Ruft den Wert der arbeitsschritte-Eigenschaft ab.
-             * 
+             *
              * @return
-             *     possible object is
-             *     {@link String }
-             *     
+             * possible object is
+             * {@link String }
+             *
              */
             public String getArbeitsschritte() {
                 return arbeitsschritte;
@@ -1005,11 +1005,11 @@ public class Rezepte {
 
             /**
              * Legt den Wert der arbeitsschritte-Eigenschaft fest.
-             * 
+             *
              * @param value
-             *     allowed object is
-             *     {@link String }
-             *     
+             * allowed object is
+             * {@link String }
+             *
              */
             public void setArbeitsschritte(String value) {
                 this.arbeitsschritte = value;
@@ -1017,35 +1017,35 @@ public class Rezepte {
 
 
             /**
-             * <p>Java-Klasse für anonymous complex type.
-             * 
+             * <p>Java-Klasse fÃ¼r anonymous complex type.
+             *
              * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-             * 
+             *
              * <pre>
              * &lt;complexType>
-             *   &lt;complexContent>
-             *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-             *       &lt;sequence>
-             *         &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-             *       &lt;/sequence>
-             *       &lt;attribute name="Einheit">
-             *         &lt;simpleType>
-             *           &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-             *             &lt;enumeration value="std"/>
-             *             &lt;enumeration value="min"/>
-             *           &lt;/restriction>
-             *         &lt;/simpleType>
-             *       &lt;/attribute>
-             *     &lt;/restriction>
-             *   &lt;/complexContent>
+             * &lt;complexContent>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+             * &lt;sequence>
+             * &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+             * &lt;/sequence>
+             * &lt;attribute name="Einheit">
+             * &lt;simpleType>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+             * &lt;enumeration value="std"/>
+             * &lt;enumeration value="min"/>
+             * &lt;/restriction>
+             * &lt;/simpleType>
+             * &lt;/attribute>
+             * &lt;/restriction>
+             * &lt;/complexContent>
              * &lt;/complexType>
              * </pre>
-             * 
-             * 
+             *
+             *
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
-                "dauer"
+                    "dauer"
             })
             public static class Arbeitszeit {
 
@@ -1056,11 +1056,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der dauer-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link BigInteger }
-                 *     
+                 * possible object is
+                 * {@link BigInteger }
+                 *
                  */
                 public BigInteger getDauer() {
                     return dauer;
@@ -1068,11 +1068,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der dauer-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link BigInteger }
-                 *     
+                 * allowed object is
+                 * {@link BigInteger }
+                 *
                  */
                 public void setDauer(BigInteger value) {
                     this.dauer = value;
@@ -1080,11 +1080,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der einheit-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link String }
-                 *     
+                 * possible object is
+                 * {@link String }
+                 *
                  */
                 public String getEinheit() {
                     return einheit;
@@ -1092,11 +1092,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der einheit-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link String }
-                 *     
+                 * allowed object is
+                 * {@link String }
+                 *
                  */
                 public void setEinheit(String value) {
                     this.einheit = value;
@@ -1106,34 +1106,34 @@ public class Rezepte {
 
 
             /**
-             * <p>Java-Klasse für anonymous complex type.
-             * 
+             * <p>Java-Klasse fÃ¼r anonymous complex type.
+             *
              * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-             * 
+             *
              * <pre>
              * &lt;complexType>
-             *   &lt;complexContent>
-             *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-             *       &lt;sequence>
-             *         &lt;element name="Anzahl" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-             *       &lt;/sequence>
-             *       &lt;attribute name="Einheit">
-             *         &lt;simpleType>
-             *           &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-             *             &lt;enumeration value="kcal"/>
-             *           &lt;/restriction>
-             *         &lt;/simpleType>
-             *       &lt;/attribute>
-             *     &lt;/restriction>
-             *   &lt;/complexContent>
+             * &lt;complexContent>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+             * &lt;sequence>
+             * &lt;element name="Anzahl" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+             * &lt;/sequence>
+             * &lt;attribute name="Einheit">
+             * &lt;simpleType>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+             * &lt;enumeration value="kcal"/>
+             * &lt;/restriction>
+             * &lt;/simpleType>
+             * &lt;/attribute>
+             * &lt;/restriction>
+             * &lt;/complexContent>
              * &lt;/complexType>
              * </pre>
-             * 
-             * 
+             *
+             *
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
-                "anzahl"
+                    "anzahl"
             })
             public static class Brennwert {
 
@@ -1144,11 +1144,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der anzahl-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link BigInteger }
-                 *     
+                 * possible object is
+                 * {@link BigInteger }
+                 *
                  */
                 public BigInteger getAnzahl() {
                     return anzahl;
@@ -1156,11 +1156,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der anzahl-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link BigInteger }
-                 *     
+                 * allowed object is
+                 * {@link BigInteger }
+                 *
                  */
                 public void setAnzahl(BigInteger value) {
                     this.anzahl = value;
@@ -1168,11 +1168,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der einheit-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link String }
-                 *     
+                 * possible object is
+                 * {@link String }
+                 *
                  */
                 public String getEinheit() {
                     return einheit;
@@ -1180,11 +1180,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der einheit-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link String }
-                 *     
+                 * allowed object is
+                 * {@link String }
+                 *
                  */
                 public void setEinheit(String value) {
                     this.einheit = value;
@@ -1194,35 +1194,35 @@ public class Rezepte {
 
 
             /**
-             * <p>Java-Klasse für anonymous complex type.
-             * 
+             * <p>Java-Klasse fÃ¼r anonymous complex type.
+             *
              * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-             * 
+             *
              * <pre>
              * &lt;complexType>
-             *   &lt;complexContent>
-             *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-             *       &lt;sequence>
-             *         &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
-             *       &lt;/sequence>
-             *       &lt;attribute name="Einheit">
-             *         &lt;simpleType>
-             *           &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-             *             &lt;enumeration value="std"/>
-             *             &lt;enumeration value="min"/>
-             *           &lt;/restriction>
-             *         &lt;/simpleType>
-             *       &lt;/attribute>
-             *     &lt;/restriction>
-             *   &lt;/complexContent>
+             * &lt;complexContent>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+             * &lt;sequence>
+             * &lt;element name="Dauer" type="{http://www.w3.org/2001/XMLSchema}integer"/>
+             * &lt;/sequence>
+             * &lt;attribute name="Einheit">
+             * &lt;simpleType>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+             * &lt;enumeration value="std"/>
+             * &lt;enumeration value="min"/>
+             * &lt;/restriction>
+             * &lt;/simpleType>
+             * &lt;/attribute>
+             * &lt;/restriction>
+             * &lt;/complexContent>
              * &lt;/complexType>
              * </pre>
-             * 
-             * 
+             *
+             *
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
-                "dauer"
+                    "dauer"
             })
             public static class Ruhezeit {
 
@@ -1233,11 +1233,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der dauer-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link BigInteger }
-                 *     
+                 * possible object is
+                 * {@link BigInteger }
+                 *
                  */
                 public BigInteger getDauer() {
                     return dauer;
@@ -1245,11 +1245,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der dauer-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link BigInteger }
-                 *     
+                 * allowed object is
+                 * {@link BigInteger }
+                 *
                  */
                 public void setDauer(BigInteger value) {
                     this.dauer = value;
@@ -1257,11 +1257,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der einheit-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link String }
-                 *     
+                 * possible object is
+                 * {@link String }
+                 *
                  */
                 public String getEinheit() {
                     return einheit;
@@ -1269,11 +1269,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der einheit-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link String }
-                 *     
+                 * allowed object is
+                 * {@link String }
+                 *
                  */
                 public void setEinheit(String value) {
                     this.einheit = value;
@@ -1285,54 +1285,54 @@ public class Rezepte {
 
 
         /**
-         * <p>Java-Klasse für anonymous complex type.
-         * 
+         * <p>Java-Klasse fÃ¼r anonymous complex type.
+         *
          * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-         * 
+         *
          * <pre>
          * &lt;complexType>
-         *   &lt;complexContent>
-         *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *       &lt;sequence>
-         *         &lt;element name="Zutat" maxOccurs="unbounded">
-         *           &lt;complexType>
-         *             &lt;complexContent>
-         *               &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-         *                 &lt;sequence>
-         *                   &lt;element name="Name" type="{http://www.w3.org/2001/XMLSchema}string"/>
-         *                   &lt;element name="Menge" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
-         *                 &lt;/sequence>
-         *                 &lt;attribute name="Einheit" default="g">
-         *                   &lt;simpleType>
-         *                     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-         *                       &lt;enumeration value="g"/>
-         *                       &lt;enumeration value="Pck."/>
-         *                       &lt;enumeration value="EL"/>
-         *                       &lt;enumeration value="ml"/>
-         *                       &lt;enumeration value="Prise"/>
-         *                       &lt;enumeration value="Dose"/>
-         *                       &lt;enumeration value="TL"/>
-         *                       &lt;enumeration value="Pkt."/>
-         *                       &lt;enumeration value="Stk."/>
-         *                       &lt;enumeration value="Flasche"/>
-         *                     &lt;/restriction>
-         *                   &lt;/simpleType>
-         *                 &lt;/attribute>
-         *               &lt;/restriction>
-         *             &lt;/complexContent>
-         *           &lt;/complexType>
-         *         &lt;/element>
-         *       &lt;/sequence>
-         *     &lt;/restriction>
-         *   &lt;/complexContent>
+         * &lt;complexContent>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         * &lt;sequence>
+         * &lt;element name="Zutat" maxOccurs="unbounded">
+         * &lt;complexType>
+         * &lt;complexContent>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+         * &lt;sequence>
+         * &lt;element name="Name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+         * &lt;element name="Menge" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
+         * &lt;/sequence>
+         * &lt;attribute name="Einheit" default="g">
+         * &lt;simpleType>
+         * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+         * &lt;enumeration value="g"/>
+         * &lt;enumeration value="Pck."/>
+         * &lt;enumeration value="EL"/>
+         * &lt;enumeration value="ml"/>
+         * &lt;enumeration value="Prise"/>
+         * &lt;enumeration value="Dose"/>
+         * &lt;enumeration value="TL"/>
+         * &lt;enumeration value="Pkt."/>
+         * &lt;enumeration value="Stk."/>
+         * &lt;enumeration value="Flasche"/>
+         * &lt;/restriction>
+         * &lt;/simpleType>
+         * &lt;/attribute>
+         * &lt;/restriction>
+         * &lt;/complexContent>
+         * &lt;/complexType>
+         * &lt;/element>
+         * &lt;/sequence>
+         * &lt;/restriction>
+         * &lt;/complexContent>
          * &lt;/complexType>
          * </pre>
-         * 
-         * 
+         *
+         *
          */
         @XmlAccessorType(XmlAccessType.FIELD)
         @XmlType(name = "", propOrder = {
-            "zutat"
+                "zutat"
         })
         public static class Zutaten {
 
@@ -1341,25 +1341,25 @@ public class Rezepte {
 
             /**
              * Gets the value of the zutat property.
-             * 
+             *
              * <p>
              * This accessor method returns a reference to the live list,
              * not a snapshot. Therefore any modification you make to the
              * returned list will be present inside the JAXB object.
              * This is why there is not a <CODE>set</CODE> method for the zutat property.
-             * 
+             *
              * <p>
              * For example, to add a new item, do as follows:
              * <pre>
-             *    getZutat().add(newItem);
+             * getZutat().add(newItem);
              * </pre>
-             * 
-             * 
+             *
+             *
              * <p>
              * Objects of the following type(s) are allowed in the list
              * {@link Rezepte.Rezept.Zutaten.Zutat }
-             * 
-             * 
+             *
+             *
              */
             public List<Rezepte.Rezept.Zutaten.Zutat> getZutat() {
                 if (zutat == null) {
@@ -1370,45 +1370,45 @@ public class Rezepte {
 
 
             /**
-             * <p>Java-Klasse für anonymous complex type.
-             * 
+             * <p>Java-Klasse fÃ¼r anonymous complex type.
+             *
              * <p>Das folgende Schemafragment gibt den erwarteten Content an, der in dieser Klasse enthalten ist.
-             * 
+             *
              * <pre>
              * &lt;complexType>
-             *   &lt;complexContent>
-             *     &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
-             *       &lt;sequence>
-             *         &lt;element name="Name" type="{http://www.w3.org/2001/XMLSchema}string"/>
-             *         &lt;element name="Menge" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
-             *       &lt;/sequence>
-             *       &lt;attribute name="Einheit" default="g">
-             *         &lt;simpleType>
-             *           &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
-             *             &lt;enumeration value="g"/>
-             *             &lt;enumeration value="Pck."/>
-             *             &lt;enumeration value="EL"/>
-             *             &lt;enumeration value="ml"/>
-             *             &lt;enumeration value="Prise"/>
-             *             &lt;enumeration value="Dose"/>
-             *             &lt;enumeration value="TL"/>
-             *             &lt;enumeration value="Pkt."/>
-             *             &lt;enumeration value="Stk."/>
-             *             &lt;enumeration value="Flasche"/>
-             *           &lt;/restriction>
-             *         &lt;/simpleType>
-             *       &lt;/attribute>
-             *     &lt;/restriction>
-             *   &lt;/complexContent>
+             * &lt;complexContent>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}anyType">
+             * &lt;sequence>
+             * &lt;element name="Name" type="{http://www.w3.org/2001/XMLSchema}string"/>
+             * &lt;element name="Menge" type="{http://www.w3.org/2001/XMLSchema}float" minOccurs="0"/>
+             * &lt;/sequence>
+             * &lt;attribute name="Einheit" default="g">
+             * &lt;simpleType>
+             * &lt;restriction base="{http://www.w3.org/2001/XMLSchema}string">
+             * &lt;enumeration value="g"/>
+             * &lt;enumeration value="Pck."/>
+             * &lt;enumeration value="EL"/>
+             * &lt;enumeration value="ml"/>
+             * &lt;enumeration value="Prise"/>
+             * &lt;enumeration value="Dose"/>
+             * &lt;enumeration value="TL"/>
+             * &lt;enumeration value="Pkt."/>
+             * &lt;enumeration value="Stk."/>
+             * &lt;enumeration value="Flasche"/>
+             * &lt;/restriction>
+             * &lt;/simpleType>
+             * &lt;/attribute>
+             * &lt;/restriction>
+             * &lt;/complexContent>
              * &lt;/complexType>
              * </pre>
-             * 
-             * 
+             *
+             *
              */
             @XmlAccessorType(XmlAccessType.FIELD)
             @XmlType(name = "", propOrder = {
-                "name",
-                "menge"
+                    "name",
+                    "menge"
             })
             public static class Zutat {
 
@@ -1421,11 +1421,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der name-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link String }
-                 *     
+                 * possible object is
+                 * {@link String }
+                 *
                  */
                 public String getName() {
                     return name;
@@ -1433,11 +1433,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der name-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link String }
-                 *     
+                 * allowed object is
+                 * {@link String }
+                 *
                  */
                 public void setName(String value) {
                     this.name = value;
@@ -1445,11 +1445,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der menge-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link Float }
-                 *     
+                 * possible object is
+                 * {@link Float }
+                 *
                  */
                 public Float getMenge() {
                     return menge;
@@ -1457,11 +1457,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der menge-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link Float }
-                 *     
+                 * allowed object is
+                 * {@link Float }
+                 *
                  */
                 public void setMenge(Float value) {
                     this.menge = value;
@@ -1469,11 +1469,11 @@ public class Rezepte {
 
                 /**
                  * Ruft den Wert der einheit-Eigenschaft ab.
-                 * 
+                 *
                  * @return
-                 *     possible object is
-                 *     {@link String }
-                 *     
+                 * possible object is
+                 * {@link String }
+                 *
                  */
                 public String getEinheit() {
                     if (einheit == null) {
@@ -1485,11 +1485,11 @@ public class Rezepte {
 
                 /**
                  * Legt den Wert der einheit-Eigenschaft fest.
-                 * 
+                 *
                  * @param value
-                 *     allowed object is
-                 *     {@link String }
-                 *     
+                 * allowed object is
+                 * {@link String }
+                 *
                  */
                 public void setEinheit(String value) {
                     this.einheit = value;
