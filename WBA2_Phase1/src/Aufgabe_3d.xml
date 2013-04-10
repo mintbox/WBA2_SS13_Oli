@@ -1,56 +1,55 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Rezepte xmlns="http://www.example.org/Aufgabe_3d" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-         xsi:schemaLocation="http://www.example.org/Aufgabe_3d Aufgabe_3d.xsd ">
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Rezepte xmlns="http://www.example.org/Aufgabe_3d">
     <Rezept>
         <Titel>Goldener Toast</Titel>
         <Autor>Lubu</Autor>
         <Datum>2007-05-06</Datum>
         <Bild>http://static.chefkoch-cdn.de/ck.de/rezepte/95/95712/90111-960x720-goldener-toast.jpg</Bild>
-	<Zutaten>
+        <Zutaten>
             <Zutat Einheit="g">
                 <Name>Salz</Name>
-                <Menge>18</Menge>
+                <Menge>18.0</Menge>
             </Zutat>
             <Zutat Einheit="ml">
                 <Name>Wasser</Name>
-                <Menge>100</Menge>
+                <Menge>100.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Hefe</Name>
-                <Menge>12</Menge>
+                <Menge>12.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Mehl</Name>
-                <Menge>1000</Menge>
+                <Menge>1000.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Zucker</Name>
-                <Menge>20</Menge>
+                <Menge>20.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Stärkemehl</Name>
-                <Menge>20</Menge>
+                <Menge>20.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Butter</Name>
-                <Menge>60</Menge>
+                <Menge>60.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Malz</Name>
-                <Menge>20</Menge>
+                <Menge>20.0</Menge>
             </Zutat>
             <Zutat Einheit="ml">
                 <Name>Milch</Name>
-                <Menge>500</Menge>
+                <Menge>500.0</Menge>
             </Zutat>
         </Zutaten>
         <Zubereitung>
             <Arbeitszeit Einheit="min">
                 <Dauer>15</Dauer>
             </Arbeitszeit>
-			<Ruhezeit>
-				<Dauer>3</Dauer>
-			</Ruhezeit>
+            <Ruhezeit>
+                <Dauer>3</Dauer>
+            </Ruhezeit>
             <Schwierigkeitsgrad>normal</Schwierigkeitsgrad>
             <Arbeitsschritte>
                 Zuerst das Salz mit dem Wasser und der Hefe gut verrühren und mindestens 30 Minuten, auch
@@ -71,8 +70,10 @@
             </Arbeitsschritte>
         </Zubereitung>
         <Kommentare>
-            <Kommentar Autor="bibi14" Datum="2008-01-26" Uhrzeit="11:25:00" Text="Hallo Burgi, dein Toast Brot hab ich schon zweimal gebacken , schnell und einfach super. Überhaupt deine ganzen Rezepte, Kompliment. Mach weiter so. Liebe grüße Gaby(bibi14)"/>
-            <Kommentar Autor="Lubu" Datum="2008-01-26" Uhrzeit="12:27:00" Text="Liebe Gaby, mich freuts, dass er gelungen und auch gut schmeckt; ich backe auch nur mehr nach diesem Rezept. Danke! LG Burgi"/>
+            <Kommentar Autor="bibi14" Datum="2008-01-26" Uhrzeit="11:25:00"
+                       Text="Hallo Burgi, dein Toast Brot hab ich schon zweimal gebacken , schnell und einfach super. Überhaupt deine ganzen Rezepte, Kompliment. Mach weiter so. Liebe grüße Gaby(bibi14)"/>
+            <Kommentar Autor="Lubu" Datum="2008-01-26" Uhrzeit="12:27:00"
+                       Text="Liebe Gaby, mich freuts, dass er gelungen und auch gut schmeckt; ich backe auch nur mehr nach diesem Rezept. Danke! LG Burgi"/>
         </Kommentare>
     </Rezept>
     <Rezept>
@@ -83,23 +84,23 @@
         <Zutaten>
             <Zutat Einheit="g">
                 <Name>Mandeln</Name>
-                <Menge>175</Menge>
+                <Menge>175.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Mehl</Name>
-                <Menge>250</Menge>
+                <Menge>250.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Zucker</Name>
-                <Menge>180</Menge>
+                <Menge>180.0</Menge>
             </Zutat>
             <Zutat Einheit="TL">
                 <Name>Backpulver</Name>
-                <Menge>1</Menge>
+                <Menge>1.0</Menge>
             </Zutat>
             <Zutat Einheit="Pkt.">
                 <Name>Vanillezucker</Name>
-                <Menge>2</Menge>
+                <Menge>2.0</Menge>
             </Zutat>
             <Zutat Einheit="Flasche">
                 <Name>Bittermandelöl</Name>
@@ -107,15 +108,15 @@
             </Zutat>
             <Zutat Einheit="Prise">
                 <Name>Salz</Name>
-                <Menge>1</Menge>
+                <Menge>1.0</Menge>
             </Zutat>
             <Zutat Einheit="g">
                 <Name>Butter</Name>
-                <Menge>25</Menge>
+                <Menge>25.0</Menge>
             </Zutat>
             <Zutat Einheit="Stk.">
                 <Name>Eier</Name>
-                <Menge>2</Menge>
+                <Menge>2.0</Menge>
             </Zutat>
         </Zutaten>
         <Zubereitung>
@@ -144,7 +145,6 @@
 
                 Ich mache meistens gleich die doppelte Menge.
             </Arbeitsschritte>
-
         </Zubereitung>
         <Kommentare>
             <Kommentar Autor="Anyana" Datum="2004-11-16" Uhrzeit="10:42:00"
@@ -154,4 +154,3 @@
         </Kommentare>
     </Rezept>
 </Rezepte>
-
