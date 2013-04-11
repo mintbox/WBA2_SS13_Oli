@@ -1,17 +1,9 @@
 Diskutieren Sie, warum es sinnvoll ist Daten in Formaten wie XML oder JSON zu speichern. Stellen Sie auï¿½erdem die beiden Formate gegenï¿½ber und erlï¿½utern Sie kurz deren Vor- und Nachteile. 
 
+Formate wie XML oder JSON bieten einem die Möglichkeit Daten in textueller Form zu einer selbst definierten Struktur zu speichern. Diese Formate sind sehr einfach aufgebaut und somit ist auch der Umgang mit diesen Daten simpel (wie man in Aufgabe 4 selbst feststellen konnte). 
+Sofort auffallen tut einem die enorme Flexibilität von XML die dieser Sprache einen enormen Vorteil verschafft. Aber auch bei XML gibt es fest definierte Strukturen die einzuhalten sind (XML-Schema & Namensräume).
+XML ist leicht lesbar, einfach zu erweitern, sehr weit verbreitet und flexibel. Im direkten Vergleich zu JSON ist XML umfangreicher.
+XML hat eine komplexe Syntax und muss geparst werden im Gegensatz zu JSON, wodurch sich JSON für den Datenaustausch besser eignet.
+JSON hat eine reduzierte Syntax und ist nicht so weit verbreitet wie XML und nicht erweiterbar, jedoch ist JSON genauso leicht lesbar für eine Person.
+JSON muss nicht geparst werden, da es aus Javascript besteht. Es ist also genauso leicht und einfach wie XML, benötigt sogar weniger Speicherplatz, strauchelt allerdings bei der Komplexität.
 
-XML:
-XML (Extensible Markup Language) ist eine Auszeichnungssprache zur Darstellung hierarchisch strukturierter Daten in Form von Textdateien.
-XML wird genutzt fï¿½r den Austausch und das schnelle Laden von Daten. Fï¿½r valides XML benï¿½tigt man Einschrï¿½nkungen die durch DTD (alt) oder auch XML-Schema (neu) definiert werden.
-Bekannteste Beispiele fï¿½r den Einsatz von XML dï¿½rften RSS und XHTML sein.
-
-JSON:
-JSON (JavaScript Object Notation) ist ein einfach lesbares Datenformat in Textform zum Austausch von Daten zwischen Anwendungen.
-JSON wird hï¿½ufig mit Javascript zur Datenï¿½bertragung zwischen Server und Client genutzt. In den Bereichen, wo mit Speicherplatz und CPU-Leistung sparsam umgegangen werden soll, nutzt man es als Ersatz fï¿½r XML. Unter anderem wird diesesFormat beim Backup von Booksmarks vom Browser genutzt.
- 
-Vergleich:
-JSON ist im direkten Vergleich zu XML kleiner (Speicherplatz). In XML kï¿½nnen fast alle Eigenschaften entweder als Attribut oder als Element beschrieben werden. Bei JSON geht das nicht. Was auch gleichzeitig bedeutet, dass es bei JSON nicht zu Problemen durch zu schwache Spezifizierung kommen kann.
-Dateien in JSON sind typisiert (Einschrï¿½nkungen vorgeschrieben). JSON lï¿½sst sich mit der eval()-Funktion in ein Javascript umsetzen, da die Definition einer JSON Datei selbst valides Javascript ist.
-XML ist durch und durch eine Auszeichnungssprache und wesentlich vielseitiger einsetzbar als JSON (Format zum reinen Datenaustausch).
-Eine Gemeinsamkeit beider Formate ist das sie nicht dazu geeignet sind Binï¿½rdatenmengen darzustellen, da beide keinen Binï¿½rdatentyp unterstï¿½tzen. 
