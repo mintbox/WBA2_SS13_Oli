@@ -16,6 +16,7 @@ import java.util.Scanner;
 public class Main {
 
     static Scanner scanner = new Scanner(System.in);
+	private static Scanner input;
 
     public static void main(String[] args) throws Exception {
 
@@ -35,7 +36,7 @@ public class Main {
         Rezepte rezepte = (Rezepte) um.unmarshal(datei);
 
 
-        // Men�
+        // Menue
         while (anzeige) {
             System.out.println();
             System.out.println("1. Ausgabe XML Datei");
@@ -54,7 +55,7 @@ public class Main {
                 eingeben(rezepte, datei, m);
             }
 
-            // Men� beenden
+            // Menue beenden
             if (eingabe == 3) {
                 anzeige = false;
             }
@@ -116,7 +117,7 @@ public class Main {
 
     }
 
-    // Neuen Kommentar einf�gen
+    // Neuen Kommentar einfuegen
     public static void eingeben(Rezepte rezepte, File datei, Marshaller m) throws IOException, JAXBException {
 
         // FileWriter initialisieren
@@ -139,13 +140,13 @@ public class Main {
 
         // Formatierter Output, da XML editiert wird
         m.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, Boolean.TRUE);
-        // Kommentar hinzufügen
+        // Kommentar hinzufuegen
         rezepte.getRezept().get(0).getKommentare().getKommentar().add(x, newcomment);
         m.marshal(rezepte, w);
     }
     // Bugfixing (Scanner wartet ohne eigene Methode nicht auf Eingabe vom Nutzer!)
     public static String getString() {
-        Scanner input = new Scanner(System.in);
+        input = new Scanner(System.in);
         return input.nextLine();
     }
 
